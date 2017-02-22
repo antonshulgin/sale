@@ -1,0 +1,10 @@
+mixin category(category)
+	section.category
+		h1.category-title= category.title
+		ul.category-items
+			each item in category.items
+				li.category-item(class=item.isGone ? 'category-item-gone' : undefined)
+					a.category-item-link(href=item.url)
+						div.category-item-thumbnail(style=`background-image: url(${item.images[0]})`)
+						span.category-item-title= item.title
+						span.category-item-price= item.isGone ? 'Sold' : item.price

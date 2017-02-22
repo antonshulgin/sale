@@ -1,0 +1,25 @@
+mixin showcase(item)
+	article.showcase
+		div.showcase-details
+			h1= item.title
+
+			for paragraph in item.description
+				p= paragraph
+
+			h2 Extra stuff
+			ul.showcase-extras
+				for extra in item.extras
+					li.showcase-extra
+						p= extra
+
+			h2 Links
+			ul.showcase-links
+				for link in item.links
+					li.showcase-link
+						p
+							a(href=link.url)= link.title
+
+		div.showcase-gallery
+			ul.showcase-images
+				for image in item.images
+					li.showcase-image(style=`background-image: url(${image})`)

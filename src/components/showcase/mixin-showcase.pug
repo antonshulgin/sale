@@ -1,27 +1,35 @@
 mixin showcase(item)
 	article.showcase(class=item.isSold ? 'showcase-sold' : undefined)
 		div.showcase-details
+
+			button.showcase-action-toggle-details(
+				onclick='showcase.toggleDetails()'
+				title='Toggle details'
+			)
+				span.showcase-icon.showcase-icon-forward
+
 			div.showcase-description
 				h1= item.title
 
-				include ../pricetag/mixin-pricetag.pug
-				+pricetag(item)
+				div.showcase-description-content
+					include ../pricetag/mixin-pricetag.pug
+					+pricetag(item)
 
-				for paragraph in item.description
-					p= paragraph
+					for paragraph in item.description
+						p= paragraph
 
-				h2 В комплекте:
-				ul.showcase-extras
-					for extra in item.extras
-						li.showcase-extra
-							p= extra
+					h2 В комплекте:
+					ul.showcase-extras
+						for extra in item.extras
+							li.showcase-extra
+								p= extra
 
-				h2 Ссылки:
-				ul.showcase-links
-					for link in item.links
-						li.showcase-link
-							p
-								a(href=link.url)= link.title
+					h2 Ссылки:
+					ul.showcase-links
+						for link in item.links
+							li.showcase-link
+								p
+									a(href=link.url)= link.title
 			
 			if !item.isSold
 				div.showcase-contact

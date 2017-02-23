@@ -13,12 +13,6 @@ $icon-size = 8px
 	width 100%
 	overflow-y auto
 
-	.showcase-gallery-action-start
-		display inline-block
-
-	.showcase-gallery-action-pause
-		display none
-
 	&.showcase-slideshow-active
 		.showcase-gallery-action-start
 			display none
@@ -26,23 +20,93 @@ $icon-size = 8px
 		.showcase-gallery-action-pause
 			display inline-block
 
+	&.showcase-details-folded
+
+		.showcase-description-content
+		.showcase-contact
+			display none
+
+		.showcase-description
+			border-radius $action-button-size
+			box-shadow 0 0 0 .4em rgba($bg, .2)
+			padding 0 2em
+
+		h1
+			line-height $action-button-size
+			margin 0
+
+		.showcase-action-toggle-details
+			margin 1em
+			transform rotate(90deg)
+
+	.showcase-gallery-action-start
+		display inline-block
+
+	.showcase-gallery-action-pause
+		display none
+
+	button
+		background-color $bg
+		border 0
+		border-radius $action-button-size
+		box-shadow 0 0 0 .4em rgba($bg, .2)
+		color $text
+		cursor pointer
+		display block
+		font inherit
+		height $action-button-size
+		margin 0
+		outline 0
+		padding 0
+		position relative
+		transition all $transition-quick
+		width $action-button-size
+
+		&:hover
+			background-color $bg-accent
+			box-shadow 0 0 0 0 $bg-accent
+
+			.showcase-icon
+				border-color $text-inverse
+
+	.showcase-action-toggle-details
+		background-color transparent !important
+		box-shadow none !important
+		margin 2em
+		position absolute
+		right 0
+		top 0
+		transform rotate(270deg)
+		z-index 10
+		opacity .6
+
+		&:hover
+			opacity 1
+
+			.showcase-icon
+				border-color $text
+
 .showcase-details
 	left 0
 	margin 0
 	padding 1em
 	position absolute
 	top 0
-	width 420px
+	width 32em
 	z-index 1
 
 .showcase-description
 .showcase-contact
 	padding 2em
+	transition all $transition-quick
 
 .showcase-description
 	background-color $bg
 	color $text
 	position relative
+
+	h1
+		margin-right 2em
 
 	.pricetag
 		bottom 0
@@ -103,30 +167,6 @@ $icon-size = 8px
 	text-align center
 	top 0
 	white-space nowrap
-
-	button
-		background-color $bg
-		border 0
-		border-radius $action-button-size
-		box-shadow 0 0 0 .4em rgba($bg, .2)
-		color $text
-		cursor pointer
-		display block
-		font inherit
-		height $action-button-size
-		margin 0
-		outline 0
-		padding 0
-		position relative
-		transition all $transition-quick
-		width $action-button-size
-
-		&:hover
-			background-color $bg-accent
-			box-shadow 0 0 0 0 $bg-accent
-
-			.showcase-icon
-				border-color $text-inverse
 
 .showcase-gallery-action
 	display inline-block

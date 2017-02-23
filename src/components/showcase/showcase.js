@@ -8,6 +8,7 @@
 	var CLASS_NAME_SHOWCASE_ACTIVE_IMAGE = 'showcase-image-active';
 	var CLASS_NAME_SHOWCASE_SLIDESHOW_ACTIVE = 'showcase-slideshow-active';
 	var CLASS_NAME_SHOWCASE_CONTACT_EMAIL = 'showcase-contact-email';
+	var CLASS_NAME_SHOWCASE_DETAILS_FOLDED = 'showcase-details-folded';
 
 	var SELECTOR_SHOWCASE = '.' + CLASS_NAME_SHOWCASE;
 	var SELECTOR_SHOWCASE_GALLERY = '.' + CLASS_NAME_SHOWCASE_GALLERY;
@@ -40,8 +41,17 @@
 			startSlideshow: startSlideshow,
 			stopSlideshow: stopSlideshow,
 			showNextImage: showNextImage,
-			showPreviousImage: showPreviousImage
+			showPreviousImage: showPreviousImage,
+			toggleDetails: toggleDetails
 		};
+	}
+
+	function toggleDetails() {
+		var showcase = getShowcase();
+		if (!showcase) {
+			return;
+		}
+		showcase.classList.toggle(CLASS_NAME_SHOWCASE_DETAILS_FOLDED);
 	}
 
 	function isSlideshowActive() {

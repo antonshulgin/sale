@@ -18,18 +18,20 @@ mixin showcase(item)
 					for paragraph in item.description
 						p= paragraph
 
-					h2 В комплекте:
-					ul.showcase-extras
-						for extra in item.extras
-							li.showcase-extra
-								p= extra
+					if item.extras.length
+						h2 В комплекте:
+						ul.showcase-extras
+							for extra in item.extras
+								li.showcase-extra
+									p= extra
 
-					h2 Ссылки:
-					ul.showcase-links
-						for link in item.links
-							li.showcase-link
-								p
-									a(href=link.url)= link.title
+					if item.links.length
+						h2 Ссылки:
+						ul.showcase-links
+							for link in item.links
+								li.showcase-link
+									p
+										a(href=link.url)= link.title
 			
 			if !item.isSold
 				div.showcase-contact
@@ -38,7 +40,7 @@ mixin showcase(item)
 						a.showcase-contact-email Напечатать письмо
 						|  или 
 						a.showcase-contact-twitter(href=`https://twitter.com/antonshulgin`) дм в твитере
-						| . Днем я обычно сплю, но постараюсь ответить в течение суток.
+						| . Постараюсь ответить в течение суток.
 
 		div.showcase-gallery
 			ul.showcase-images

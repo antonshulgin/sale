@@ -1,6 +1,6 @@
 {
 	"audio": {
-		"title": "Audio stuff",
+		"title": "Аудиомузыкальное",
 		"items": [
 			{
 				"title": "Novation Launchpad Mini",
@@ -17,8 +17,10 @@
 				"isSold": false,
 				"url": "./stuff/launchpad/",
 				"images": [
-					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58a1a46a677a6f61e9d63bbd/6e9054998c74e81c2a30c60315fddd15/01.jpg",
-					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58a1a46a677a6f61e9d63bbd/2cc8055b24d4554fff7979557831f02c/02.jpg"
+					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58a1a46a677a6f61e9d63bbd/262a717431905b7701275b49df6507ff/_DSC9306.jpg",
+					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58a1a46a677a6f61e9d63bbd/73e7bf5d7f36a4bd97ae25202f4bc121/_DSC9298.jpg",
+					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58a1a46a677a6f61e9d63bbd/275c897a0515ee92186eafab892805d5/_DSC9297.jpg",
+					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58a1a46a677a6f61e9d63bbd/391da519cb64c07ac30efb630665b2f2/_DSC9303.jpg"
 				],
 				"links": [
 					{
@@ -38,78 +40,32 @@
 						"url": "https://www.avito.ru/sankt-peterburg/muzykalnye_instrumenty?q=novation%20launchpad%20mini&sgtd=2"
 					}
 				]
-			},
-			{
-				"title": "Tannoy Reveal 402",
-				"description": [
-					"Два монитора. Маленькие, легкие, более-менее ровные для своей ниши."
-				],
-				"extras": [
-					"коробки",
-					"родные провода",
-					"документация",
-					"чеки"
-				],
-				"price": 15000,
-				"isSold": false,
-				"url": "./stuff/speakers/",
-				"images": [
-					"https://trello-attachments.s3.amazonaws.com/58a1a475652446331b79a1d1/716x616/1eb1b7abd6f4f2bdf4673b2daa85b55b/Screen_Shot_2017-02-21_at_01.18.59.png"
-				],
-				"links": [
-				]
-			},
-			{
-				"title": "Akai MPK49",
-				"description": [
-					"Midi-контроллер, 49 клавич, 9 падов, 8 нобов, 8 фейдеров."
-				],
-				"extras": [
-					"сумка",
-					"обретка-антистатик",
-					"кусок поролона",
-					"документация",
-					"Pro Tools Intro",
-					"Ableton Live 9 Lite"
-				],
-				"price": 15000,
-				"isSold": false,
-				"url": "./stuff/mpk49/",
-				"images": [
-				],
-				"links": [
-				]
 			}
 		]
 	},
 
 	"books": {
-		"title": "Books",
-		"items": [
-		]
-	},
-
-	"health": {
-		"title": "Healthy stuff",
+		"title": "Книги",
 		"items": [
 			{
-				"title": "Велотренажер",
+				"title": "Tokyo, Nicholas Hogg",
 				"description": [
-					"Магнитный привод, счетчик калорий, дистанции, пульса и прочих признаков жизни. Пробег 36 километров.",
-					"Использовался в качестве вешалки для электробаса, поэтому в отличном состоянии."
+					"Детектив, Япония, и прочее сектантство. Наверно это называется янг адалт фикшен."
 				],
-				"extras": [
-					"коробка",
-					"документация",
-					"чек"
-				],
-				"price": 5000,
+				"extras": [],
+				"price": 500,
 				"isSold": false,
-				"url": "./stuff/ersatz-bike/",
+				"url": "./stuff/tokyo/",
 				"images": [
-					"https://trello-attachments.s3.amazonaws.com/58ace10e145790346ea9bca9/953x953/184eecf4f29eb44f0801f10e3e4b1ff6/01.jpg.png"
+					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58ae9f9ce17812fdef9426f2/1ebd2a50746abd3bc16f4e558ac378c9/_DSC9366.jpg",
+					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58ae9f9ce17812fdef9426f2/32e0fc4d11e688e2e055f39b45ef4418/_DSC9367.jpg",
+					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58ae9f9ce17812fdef9426f2/350678b6a1b074b7a0e2a2c794ed8dff/_DSC9335.jpg"
 				],
 				"links": [
+					{
+						"title": "Отзывы на goodreads.com",
+						"url": "https://www.goodreads.com/book/show/25068848-tokyo"
+					}
 				]
 			}
 		]

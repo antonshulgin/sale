@@ -48,7 +48,7 @@
 		"title": "Книги",
 		"items": [
 			{
-				"title": "Tokyo, Nicholas Hogg",
+				"title": "Tokyo, Nicholas Hogg",
 				"description": [
 					"Детектив, Япония, и прочее сектантство. Наверно это называется янг адалт фикшен."
 				],
@@ -65,6 +65,57 @@
 					{
 						"title": "Отзывы на goodreads.com",
 						"url": "https://www.goodreads.com/book/show/25068848-tokyo"
+					}
+				]
+			},
+			{
+				"title": "Дар, Владимир Набоков",
+				"description": [
+					"Поливание Чернышевского говном на протяжении 411 страниц. Увлекательно."
+				],
+				"extras": [],
+				"price": 100,
+				"isSold": false,
+				"url": "./stuff/the-gift/",
+				"images": [
+					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58aea7660bd173e347f7c678/73e456797f0fad151722b7d0179e315d/_DSC9364.jpg",
+					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58aea7660bd173e347f7c678/5ddb927dbe9e55ae50914e90e47f41e1/_DSC9365.jpg",
+					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58aea7660bd173e347f7c678/26ac4c3c5c7c53011dec35ef8588f965/_DSC9284.jpg"
+				],
+				"links": [
+					{
+						"title": "Дар (роман) — Википедия",
+						"url": "https://ru.wikipedia.org/wiki/%D0%94%D0%B0%D1%80_(%D1%80%D0%BE%D0%BC%D0%B0%D0%BD)"
+					},
+					{
+						"title": "Отзывы на гудридз.ком",
+						"url": "https://www.goodreads.com/book/show/24177006"
+					}
+				]
+			},
+			{
+				"title": "Tropic of Cancer, Henry Miller",
+				"description": [
+					"Tropic of Cancer is a novel by Henry Miller that has been described as \"notorious for its candid sexuality\" and as responsible for the \"free speech that we now take for granted in literature\"",
+					"— Wikipedia"
+				],
+				"extras": [],
+				"price": 100,
+				"isSold": false,
+				"url": "./stuff/tropic-of-cancer/",
+				"images": [
+					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58aeab520fd9f823910860c7/87f0c87ff870e54ac52ba96ea4d441bb/_DSC9308.jpg",
+					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58aeab520fd9f823910860c7/fca5066bed2c54a2e67a4915b629b879/_DSC9309.jpg",
+					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58aeab520fd9f823910860c7/a013a98fb9bbb9c7245ff0570a35644b/_DSC9310.jpg"
+				],
+				"links": [
+					{
+						"title": "Tropic of Cancer (novel) — Wikipedia",
+						"url": "https://en.wikipedia.org/wiki/Tropic_of_Cancer_(novel)"
+					},
+					{
+						"title": "Отзывы на гудридз.ком",
+						"url": "https://www.goodreads.com/book/show/249.Tropic_of_Cancer"
 					}
 				]
 			}

@@ -1,5 +1,8 @@
 @require('../../variables.styl')
 
+$action-button-size = 42px
+$icon-size = 8px
+
 .showcase
 	background-color $bg
 	color $text
@@ -9,17 +12,17 @@
 	top 0
 	width 100%
 
-	.showcase-action-start
+	.showcase-gallery-action-start
 		display inline-block
 
-	.showcase-action-pause
+	.showcase-gallery-action-pause
 		display none
 
 	&.showcase-slideshow-active
-		.showcase-action-start
+		.showcase-gallery-action-start
 			display none
 
-		.showcase-action-pause
+		.showcase-gallery-action-pause
 			display inline-block
 
 .showcase-details
@@ -90,9 +93,7 @@
 		opacity 1
 		transform scale(1)
 
-$action-button-size = 42px
-
-.showcase-actions
+.showcase-gallery-actions
 	bottom 0
 	left 50%
 	margin 2em 0
@@ -121,7 +122,7 @@ $action-button-size = 42px
 			background-color $bg-accent
 			box-shadow 0 0 0 0 $bg-accent
 
-.showcase-action
+.showcase-gallery-action
 	display inline-block
 	vertical-align top
 	margin 0
@@ -129,8 +130,6 @@ $action-button-size = 42px
 
 	&:last-child
 		margin-right 0
-
-$icon-size = 10px
 
 .showcase-icon
 	background-color transparent

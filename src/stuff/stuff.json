@@ -170,6 +170,33 @@
 						"url": "https://www.goodreads.com/book/show/1095059.Faust"
 					}
 				]
+			},
+			{
+				"title": "Filth, Irvine Welsh",
+				"description": [
+					"Bruce Robertson is a detective sergeant serving in Edinburgh's \"Lothian Constabulary\". Robertson is a Machiavellian, intensely misanthropic man who spends his time indulging in cocaine and alcohol abuse, sexually abusive relationships, compulsive gorging on junk food, and, most of all, his penchant for \"the games\" – Bruce's euphemism for the myriad foul plots he hatches directed at workmates.",
+					"— Wikipedia"
+				],
+				"extras": [],
+				"price": 300,
+				"isSold": false,
+				"url": "./stuff/filth/",
+				"images": [
+					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58aeba9d755e445595d33a0a/fe7be1519cc4842a56fb26ced1d3f20a/_DSC9361.jpg",
+					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58aeba9d755e445595d33a0a/fe0d121f23d0b9b29b1de850d2df1849/_DSC9348.jpg",
+					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58aeba9d755e445595d33a0a/f7572538873b524decca2cbee61671c0/_DSC9346.jpg",
+					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58aeba9d755e445595d33a0a/3838cc9899c32d34b9d107722a6dc148/_DSC9362.jpg"
+				],
+				"links": [
+					{
+						"title": "Filth (novel) — Wikipedia",
+						"url": "https://en.wikipedia.org/wiki/Filth_(novel)"
+					},
+					{
+						"title": "Отзывы на гудридз.ком",
+						"url": "https://www.goodreads.com/book/show/23966.Filth"
+					}
+				]
 			}
 
 		]

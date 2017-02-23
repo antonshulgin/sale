@@ -1,4 +1,4 @@
-(function () {
+(function (exports) {
 	// jshint esnext: true
 	'use strict';
 
@@ -6,6 +6,7 @@
 	var CLASS_NAME_SHOWCASE_GALLERY = 'showcase-gallery';
 	var CLASS_NAME_SHOWCASE_IMAGE = 'showcase-image';
 	var CLASS_NAME_SHOWCASE_ACTIVE_IMAGE = 'showcase-image-active';
+	var CLASS_NAME_SHOWCASE_SLIDESHOW_ACTIVE = 'showcase-slideshow-active';
 	var CLASS_NAME_SHOWCASE_CONTACT_EMAIL = 'showcase-contact-email';
 
 	var SELECTOR_SHOWCASE = '.' + CLASS_NAME_SHOWCASE;
@@ -35,15 +36,34 @@
 		}
 		insertEmailHrefs();
 		startSlideshow();
+		exports.showcase = {
+			startSlideshow: startSlideshow,
+			stopSlideshow: stopSlideshow,
+			showNextImage: showNextImage,
+			showPreviousImage: showPreviousImage
+		};
+	}
+
+	function isSlideshowActive() {
+		return internals.isSlideshowActive;
+	}
+
+	function resetSlideshowInterval() {
+		stopSlideshow();
+		startSlideshow();
 	}
 
 	function stopSlideshow() {
 		clearInterval(internals.slideshowInterval);
+		internals.isSlideshowActive = false;
+		getShowcase().classList.remove(CLASS_NAME_SHOWCASE_SLIDESHOW_ACTIVE);
 	}
 
 	function startSlideshow() {
 		showImage(getActiveImageIndex());
 		internals.slideshowInterval = setInterval(showNextImage, SLIDESHOW_INTERVAL);
+		internals.isSlideshowActive = true;
+		getShowcase().classList.add(CLASS_NAME_SHOWCASE_SLIDESHOW_ACTIVE);
 	}
 
 	function showPreviousImage() {
@@ -61,6 +81,9 @@
 		setActiveImageIndex(imageIndex);
 		clearActiveImages();
 		getImages()[getActiveImageIndex()].classList.add(CLASS_NAME_SHOWCASE_ACTIVE_IMAGE);
+		if (isSlideshowActive()) {
+			resetSlideshowInterval();
+		}
 	}
 
 	function getActiveImageIndex() {
@@ -190,4 +213,4 @@
 		}
 	}
 
-})();
+})(this);

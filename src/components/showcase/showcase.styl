@@ -9,6 +9,19 @@
 	top 0
 	width 100%
 
+	.showcase-action-start
+		display inline-block
+
+	.showcase-action-pause
+		display none
+
+	&.showcase-slideshow-active
+		.showcase-action-start
+			display none
+
+		.showcase-action-pause
+			display inline-block
+
 .showcase-details
 	top 0
 	left 0
@@ -76,3 +89,75 @@
 	&.showcase-image-active
 		opacity 1
 		transform scale(1)
+
+$action-button-size = 42px
+
+.showcase-actions
+	bottom 0
+	left 50%
+	margin 2em 0
+	position fixed
+	transform translateX(-50%)
+	white-space nowrap
+
+	button
+		background-color $bg-inverse
+		border 0
+		border-radius $action-button-size
+		box-shadow 0 0 0 .4em rgba($bg, .2)
+		color $text-inverse
+		cursor pointer
+		display block
+		font inherit
+		height $action-button-size
+		margin 0
+		outline 0
+		padding 0
+		position relative
+		transition all $transition-quick
+		width $action-button-size
+
+		&:hover
+			background-color $bg-accent
+			box-shadow 0 0 0 0 $bg-accent
+
+.showcase-action
+	display inline-block
+	vertical-align top
+	margin 0
+	margin-right 1em
+
+	&:last-child
+		margin-right 0
+
+$icon-size = 10px
+
+.showcase-icon
+	background-color transparent
+	display inline-block
+	height $icon-size
+	left 50%
+	position absolute
+	top 50%
+	transform translate(-50%, -50%)
+	width $icon-size
+
+	&.showcase-icon-back
+		border-left solid 2px $text-inverse
+		border-top solid 2px $text-inverse
+		transform translate(-30%, -50%) rotate(-45deg)
+
+	&.showcase-icon-forward
+		border-bottom solid 2px $text-inverse
+		border-right solid 2px $text-inverse
+		transform translate(-70%, -50%) rotate(-45deg)
+
+	&.showcase-icon-play
+		border solid 5px transparent
+		border-bottom-color $text-inverse
+		border-right-color $text-inverse
+		transform translate(-75%, -50%) rotate(-45deg)
+
+	&.showcase-icon-pause
+		border-left solid 3px $text-inverse
+		border-right solid 3px $text-inverse

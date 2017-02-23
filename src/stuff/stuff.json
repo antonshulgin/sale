@@ -96,7 +96,7 @@
 			{
 				"title": "Tropic of Cancer, Henry Miller",
 				"description": [
-					"Tropic of Cancer is a novel by Henry Miller that has been described as \"notorious for its candid sexuality\" and as responsible for the \"free speech that we now take for granted in literature\"",
+					"Tropic of Cancer is a novel by Henry Miller that has been described as \"notorious for its candid sexuality\" and as responsible for the \"free speech that we now take for granted in literature\"",
 					"— Wikipedia"
 				],
 				"extras": [],
@@ -118,7 +118,34 @@
 						"url": "https://www.goodreads.com/book/show/249.Tropic_of_Cancer"
 					}
 				]
+			},
+			{
+				"title": "Tropic of Capricorn, Henry Miller",
+				"description": [
+					"Tropic of Capricorn is a semi-autobiographical novel by Henry Miller, first published by Obelisk Press in Paris in 1939. A prequel of sorts to Miller's first published novel, 1934's Tropic of Cancer, it was banned in the United States until a 1961 Justice Department ruling declared that its contents were not obscene.",
+					"— Wikipedia"
+				],
+				"extras": [],
+				"price": 100,
+				"isSold": false,
+				"url": "./stuff/tropic-of-capricorn/",
+				"images": [
+					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58aeae6369fe4b4588071606/b31a91d40c6e3672e515b47a43b13fa6/_DSC9313.jpg",
+					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58aeae6369fe4b4588071606/681e4605096120a8220368ea9a75fa30/_DSC9314.jpg",
+					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58aeae6369fe4b4588071606/f2b34b76c6769d64b0b899a21fd933dc/_DSC9315.jpg"
+				],
+				"links": [
+					{
+						"title": "Tropic of Capricorn (novel) — Wikipedia",
+						"url": "https://en.wikipedia.org/wiki/Tropic_of_Capricorn_(novel)"
+					},
+					{
+						"title": "Отзывы на гудридз.ком",
+						"url": "https://www.goodreads.com/book/show/250.Tropic_of_Capricorn"
+					}
+				]
 			}
+
 		]
 	}
 }

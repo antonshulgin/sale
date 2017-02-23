@@ -1,0 +1,2 @@
+mixin pricetag(item)
+	span.pricetag(class=item.isSold ? 'pricetag-sold' : undefined)= item.isSold ? 'Sold' : item.price

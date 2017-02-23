@@ -1,7 +1,6 @@
 @require('../../variables.styl')
 
 $thumbnail-size = 160px
-$pricetag-size = 4em
 
 .category
 	margin 2em 0
@@ -23,11 +22,16 @@ $pricetag-size = 4em
 		.category-item-thumbnail
 			box-shadow inset 0 0 0 0 #fff
 
-		.category-item-price
+		.pricetag
 			background-color $bg-accent
 			color $text-inverse
 
-.category-item-gone
+	.pricetag
+		right 0
+		top $thumbnail-size
+		transform translateY(-100%)
+
+.category-item-sold
 	opacity .3
 
 	&:hover
@@ -51,20 +55,3 @@ $pricetag-size = 4em
 	height $thumbnail-size
 	transition box-shadow $transition-quick
 	width $thumbnail-size
-
-.category-item-price
-	background-color $bg-inverse
-	border-radius $pricetag-size
-	box-shadow 0 0 0 3px $bg
-	color $text-inverse
-	font 600 .9em/$pricetag-size monospace
-	height $pricetag-size
-	letter-spacing -.05em
-	position absolute
-	right 0
-	text-transform uppercase
-	top $thumbnail-size
-	transform translateY(-100%)
-	transition all $transition-quick
-	white-space nowrap
-	width $pricetag-size

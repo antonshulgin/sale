@@ -6,11 +6,13 @@
 	var CLASS_NAME_SHOWCASE_GALLERY = 'showcase-gallery';
 	var CLASS_NAME_SHOWCASE_IMAGE = 'showcase-image';
 	var CLASS_NAME_SHOWCASE_ACTIVE_IMAGE = 'showcase-image-active';
+	var CLASS_NAME_SHOWCASE_CONTACT_EMAIL = 'showcase-contact-email';
 
 	var SELECTOR_SHOWCASE = '.' + CLASS_NAME_SHOWCASE;
 	var SELECTOR_SHOWCASE_GALLERY = '.' + CLASS_NAME_SHOWCASE_GALLERY;
 	var SELECTOR_SHOWCASE_IMAGE = '.' + CLASS_NAME_SHOWCASE_IMAGE;
 	var SELECTOR_SHOWCASE_ACTIVE_IMAGE = '.' + CLASS_NAME_SHOWCASE_ACTIVE_IMAGE;
+	var SELECTOR_CONTACT_EMAIL = '.' + CLASS_NAME_SHOWCASE_CONTACT_EMAIL;
 
 	var SLIDESHOW_INTERVAL = 6666;
 
@@ -31,6 +33,7 @@
 		if (!getImages()) {
 			return;
 		}
+		insertEmailHrefs();
 		startSlideshow();
 	}
 
@@ -151,6 +154,40 @@
 
 	function findShowcase() {
 		return document.querySelector(SELECTOR_SHOWCASE);
+	}
+
+	function insertEmailHrefs() {
+		var showcase = getShowcase();
+		if (!showcase) {
+			return;
+		}
+		var emailLinks = showcase.querySelectorAll(SELECTOR_CONTACT_EMAIL);
+		if (!emailLinks) {
+			return;
+		}
+		var bits = [
+			'moc.xmg',
+			'@',
+			'nigluhs',
+			'.',
+			'notna'
+		];
+		var emailHref = [
+			'mailto:',
+			bits.join('').split('').reverse().join(''),
+		];
+		var itemTitle = showcase.querySelector('h1');
+		if (itemTitle && itemTitle.textContent) {
+			emailHref = emailHref.concat([
+				'?subject=',
+				itemTitle.textContent
+			]);
+		}
+		emailHref = emailHref.join('');
+		var idx;
+		for (idx = 0; idx < emailLinks.length; idx += 1) {
+			emailLinks[idx].href = emailHref;
+		}
 	}
 
 })();

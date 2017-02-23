@@ -1,0 +1,21 @@
+@require('../../variables.styl')
+
+$pricetag-size = 4em
+
+.pricetag
+	background-color $bg-inverse
+	border-radius $pricetag-size
+	box-shadow 0 0 0 3px $bg
+	color $text-inverse
+	font 600 .9em/$pricetag-size monospace
+	height $pricetag-size
+	letter-spacing -.05em
+	position absolute
+	text-align center
+	text-transform uppercase
+	transition all $transition-quick
+	white-space nowrap
+	width $pricetag-size
+
+.pricetag-sold
+	background-color $bg-inverse !important

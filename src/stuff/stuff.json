@@ -144,6 +144,32 @@
 						"url": "https://www.goodreads.com/book/show/250.Tropic_of_Capricorn"
 					}
 				]
+			},
+			{
+				"title": "Faust. Eine Tragödie. Erster Teil, Goethe",
+				"description": [
+					"Faust. Eine Tragödie. von Johann Wolfgang von Goethe gilt als das bedeutendste und meistzitierte Werk der deutschen Literatur.",
+					"— Wikipedia"
+				],
+				"extras": [],
+				"price": 100,
+				"isSold": false,
+				"url": "./stuff/faust/",
+				"images": [
+					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58aeb57adba0a4f56305e6af/d25c6f82809b31cea5e896a7f946cc5c/_DSC9319.jpg",
+					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58aeb57adba0a4f56305e6af/1a96acceed285453054c14d73c0b02aa/_DSC9320.jpg",
+					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58aeb57adba0a4f56305e6af/fb6b3571b741ae8375f8c3bd365274f3/_DSC9321.jpg"
+				],
+				"links": [
+					{
+						"title": "Faust. Eine Tragödie. — Wikipedia",
+						"url": "https://de.wikipedia.org/wiki/Faust._Eine_Trag%C3%B6die."
+					},
+					{
+						"title": "Отзывы на гудридз.ком",
+						"url": "https://www.goodreads.com/book/show/1095059.Faust"
+					}
+				]
 			}
 
 		]

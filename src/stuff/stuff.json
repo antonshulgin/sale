@@ -91,6 +91,88 @@
 	"books": {
 		"title": "Книги",
 		"items": {
+			"alsoSprachZaratustra": {
+				"title": "Also sprach Zarathustra, Friedrich Nietzsche",
+				"description": [
+					"Das Buch besteht aus vier Teilen. Der erste Teil erschien 1883, der zweite und dritte 1884, der vierte 1885 als Privatdruck. 1886 veröffentlichte Nietzsche die drei ersten Teile als „Also sprach Zarathustra. Ein Buch für Alle und Keinen. In drei Teilen.“",
+					"— Wikipedia",
+					"Взял попрактиковать дойчес лезен. Открыл, закрыл. Переключился обратно на детские сказки."
+				],
+				"extras": [],
+				"price": 100,
+				"isSold": false,
+				"url": "./stuff/also-sprach-zarathustra/",
+				"images": [
+					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58b041d749119f2d4de009e7/ffe968f3a46f90b23cec5e545634425f/_DSC9381.jpg",
+					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58b041d749119f2d4de009e7/3ec7c0fb8f813ce50434af651486b79d/_DSC9383.jpg",
+					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58b041d749119f2d4de009e7/483aaa5e570b650742fbba3cff63dea7/_DSC9382.jpg"
+				],
+				"links": [
+					{
+						"title": "Also sprach Zarathustra — Wikipedia",
+						"url": "https://de.wikipedia.org/wiki/Also_sprach_Zarathustra"
+					},
+					{
+						"title": "Отзывы на goodreads.com",
+						"url": "https://www.goodreads.com/book/show/30722699-also-sprach-zarathustra"
+					}
+				]
+			},
+			"theSoftMachine": {
+				"title": "The Soft Machine, William Burroughs",
+				"description": [
+					"The title The Soft Machine is a name for the human body, and the main theme of the book (as explicitly written in an appendix added to the 1968, British edition) concerns how control mechanisms invade the body.",
+					"The book is written in a style close to that of Naked Lunch, employing third-person singular indirect recall, though now using the cut-up method.",
+					"— Wikipedia",
+					"Привез из Мельбурна, не читал."
+				],
+				"extras": [],
+				"price": 300,
+				"isSold": false,
+				"url": "./stuff/the-soft-machine/",
+				"images": [
+					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58b041e5037b5403bcec3479/4c09a930366abf00852b3e0052fb592d/_DSC9405.jpg",
+					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58b041e5037b5403bcec3479/804fdef2d34925e37daf8c137b84902a/_DSC9407.jpg",
+					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58b041e5037b5403bcec3479/238768609b038c32df70ba0ef29f043c/_DSC9406.jpg"
+				],
+				"links": [
+					{
+						"title": "The Soft Machine — Wikipedia",
+						"url": "https://en.wikipedia.org/wiki/The_Soft_Machine"
+					},
+					{
+						"title": "Отзывы на goodreads.com",
+						"url": "https://www.goodreads.com/book/show/23937.The_Soft_Machine"
+					}
+				]
+			},
+			"junky": {
+				"title": "Junky, William Burroughs",
+				"description": [
+					"The novel was considered unpublishable more than it was controversial. Burroughs began it largely at the request and insistence of Allen Ginsberg, who was impressed by Burroughs’s letter-writing skill.",
+					"— Wikipedia",
+					"Привез из Мельбурна, не дошли руки почитать в оригинале. Для Берроуза необходимо специальное настроение, которое спустя пару лет так и не пришло."
+				],
+				"extras": [],
+				"price": 300,
+				"isSold": false,
+				"url": "./stuff/junky/",
+				"images": [
+					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58b041ef554ea6c3c1423754/637987742bd4a32757a8c51c3ba4353f/_DSC9417.jpg",
+					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58b041ef554ea6c3c1423754/af6f179f036f2c4ca3bed4dbda9f864a/_DSC9419.jpg",
+					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58b041ef554ea6c3c1423754/c790c82ca90c631a2b747dab98817419/_DSC9418.jpg"
+				],
+				"links": [
+					{
+						"title": "Junkie (novel) — Wikipedia",
+						"url": "https://en.wikipedia.org/wiki/Junkie_(novel)"
+					},
+					{
+						"title": "Отзывы на goodreads.com",
+						"url": "https://www.goodreads.com/book/show/23940.Junky"
+					}
+				]
+			},
 			"tokyo": {
 				"title": "Tokyo, Nicholas Hogg",
 				"description": [

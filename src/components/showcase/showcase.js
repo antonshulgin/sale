@@ -36,7 +36,7 @@
 			return;
 		}
 		insertEmailHrefs();
-		startSlideshow();
+		startSlideshow(true);
 		exports.showcase = {
 			startSlideshow: startSlideshow,
 			stopSlideshow: stopSlideshow,
@@ -69,8 +69,13 @@
 		getShowcase().classList.remove(CLASS_NAME_SHOWCASE_SLIDESHOW_ACTIVE);
 	}
 
-	function startSlideshow() {
-		showImage(getActiveImageIndex());
+	function startSlideshow(isForcedUpdate) {
+		if (!getImages()) {
+			return;
+		}
+		if (isForcedUpdate) {
+			showNextImage();
+		}
 		internals.slideshowInterval = setInterval(showNextImage, SLIDESHOW_INTERVAL);
 		internals.isSlideshowActive = true;
 		getShowcase().classList.add(CLASS_NAME_SHOWCASE_SLIDESHOW_ACTIVE);
@@ -100,6 +105,7 @@
 		if (isSlideshowActive()) {
 			resetSlideshowInterval();
 		}
+		console.log({ showImage: getActiveImageIndex() });
 	}
 
 	function getActiveImageIndex() {
@@ -107,12 +113,10 @@
 	}
 
 	function setActiveImageIndex(imageIndex) {
-		var isProperNumber = (Object.prototype.toString.call(imageIndex) === '[object Number]');
-		if (!isProperNumber) {
+		if (Object.prototype.toString.call(imageIndex) !== '[object Number]') {
 			return;
 		}
-		var isFiniteNumber = isFinite(imageIndex);
-		if (!isFiniteNumber) {
+		if (!isFinite(imageIndex)) {
 			return;
 		}
 		if (imageIndex >= getImages().length) {

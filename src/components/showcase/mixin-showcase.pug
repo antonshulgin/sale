@@ -43,7 +43,7 @@ mixin showcase(item)
 						| . Постараюсь ответить в течение суток.
 
 		div.showcase-gallery
-			ul.showcase-images
+			ul.showcase-images(onclick='showcase.showNextImage(true)')
 				for image in item.images
 					li.showcase-image(style=`background-image: url(${image})`)
 
@@ -64,7 +64,7 @@ mixin showcase(item)
 
 				li.showcase-gallery-action.showcase-gallery-action-start
 					button(
-						onclick='showcase.startSlideshow()'
+						onclick='showcase.startSlideshow(true)'
 						title='Запустить слайдшоу'
 					)
 						span.showcase-icon.showcase-icon-play

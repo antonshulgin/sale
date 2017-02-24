@@ -148,7 +148,7 @@
 				],
 				"extras": [],
 				"price": 300,
-				"isSold": true,
+				"isSold": false,
 				"url": "./stuff/filth/",
 				"images": [
 					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58aeba9d755e445595d33a0a/fe7be1519cc4842a56fb26ced1d3f20a/_DSC9361.jpg",

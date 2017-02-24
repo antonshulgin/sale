@@ -7,6 +7,5 @@ mixin category(category)
 					a.category-item-link(href=item.url)
 						div.category-item-thumbnail(style=`background-image: url(${item.images[0]})`)
 						span.category-item-title= item.title
-
-						include ../pricetag/mixin-pricetag.pug
-						+pricetag(item)
+							include ../pricetag/mixin-pricetag.pug
+							+pricetag(item)

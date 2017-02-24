@@ -55,3 +55,60 @@ $thumbnail-size = 160px
 	height $thumbnail-size
 	transition box-shadow $transition-quick
 	width $thumbnail-size
+
+@media (max-width: $width-small-screen), (max-height: $height-small-screen)
+
+	$thumbnail-size-small-screen = 280px
+
+	.category-items
+		margin 1em -1em
+
+	.category-item
+		display block
+		margin 1em 0
+		position relative
+		width auto
+		font-size .9em
+
+		.category-item-title
+			background-color rgba($bg-inverse, .8)
+			border-radius 2px
+			bottom .5em
+			color $text-inverse
+			left .5em
+			margin 0
+			padding 1em
+			position absolute
+			text-align left
+
+		.pricetag
+			background-color $bg-accent
+			border-radius 2px
+			box-shadow none
+			color $text-inverse
+			font inherit
+			height auto
+			left 100%
+			line-height inherit
+			font-weight 600
+			text-align inherit
+			margin 0
+			padding 1em
+			right auto
+			top 0
+			transform translateX(2px)
+			width auto
+
+	.category-item-thumbnail
+		border-radius 2px
+		box-shadow none
+		display block
+		height $thumbnail-size-small-screen
+		width auto
+
+@media (max-width: $width-tiny-screen), (max-height: $height-tiny-screen)
+
+	.category-item
+
+		.category-item-title
+			font-size .9em

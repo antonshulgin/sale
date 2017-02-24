@@ -40,6 +40,7 @@
 		exports.showcase = {
 			startSlideshow: startSlideshow,
 			stopSlideshow: stopSlideshow,
+			bumpGallery: bumpGallery,
 			showNextImage: showNextImage,
 			showPreviousImage: showPreviousImage,
 			toggleDetails: toggleDetails
@@ -79,6 +80,14 @@
 		internals.slideshowInterval = setInterval(showNextImage, SLIDESHOW_INTERVAL);
 		internals.isSlideshowActive = true;
 		getShowcase().classList.add(CLASS_NAME_SHOWCASE_SLIDESHOW_ACTIVE);
+	}
+
+	function bumpGallery(isInitiatedByUser, isInvertedOrder) {
+		if (isInvertedOrder) {
+			showPreviousImage(isInitiatedByUser);
+			return;
+		}
+		showNextImage(isInitiatedByUser);
 	}
 
 	function showPreviousImage(isInitiatedByUser) {

@@ -43,7 +43,7 @@ mixin showcase(item)
 						| . Постараюсь ответить в течение суток.
 
 		div.showcase-gallery
-			ul.showcase-images(onclick='showcase.showNextImage(true)')
+			ul.showcase-images(onclick='showcase.bumpGallery(true, event.shiftKey)')
 				for image in item.images
 					li.showcase-image(style=`background-image: url(${image})`)
 

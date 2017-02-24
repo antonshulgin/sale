@@ -2,6 +2,50 @@
 	"audio": {
 		"title": "Аудиомузыкальное",
 		"items": {
+			"speakers": {
+				"title": "Tannoy Reveal 402",
+				"description": [
+					"Компактные мониторы, самое то для дома. Цена указана за оба."
+				],
+				"extras": [
+					"провода",
+					"коробки",
+					"документация"
+				],
+				"price": 15000,
+				"isSold": false,
+				"url": "./stuff/speakers/",
+				"images": [
+					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58a1a475652446331b79a1d1/d4cfe245b4554ca3faaea68e07c822fb/_DSC9461.jpg",
+					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58a1a475652446331b79a1d1/581a5b6f3e454566593d9a2c3dd3c948/_DSC9468.jpg",
+					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58a1a475652446331b79a1d1/918096021cebca2131833b1778038a85/_DSC9464.jpg",
+					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58a1a475652446331b79a1d1/a6ea91f7f7bdde9a44ab9cb127c1d689/_DSC9454.jpg",
+					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58a1a475652446331b79a1d1/b3656b03c1b9cc43e17860de03c94aff/_DSC9456.jpg",
+					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58a1a475652446331b79a1d1/9f28ecbb1167b70ae0100a346cb40c84/_DSC9443.jpg"
+				],
+				"links": [
+					{
+						"title": "TANNOY Creation - Reveal 402 | tannoy.com",
+						"url": "http://www.tannoy.com/creation/products/Recording/Reveal/Reveal-402/"
+					},
+					{
+						"title": "Tannoy Reveal 502 & 402 | SoundOnSound",
+						"url": "http://www.soundonsound.com/reviews/tannoy-reveal-502-402"
+					},
+					{
+						"title": "Amazon.com: Customer Reviews",
+						"url": "https://www.amazon.com/Tannoy-Reveal-402-Studio-Monitor/dp/B00HU7F59C"
+					},
+					{
+						"title": "Цены на Яндекс.Маркете",
+						"url": "https://market.yandex.ru/catalog/56153/list?srnum=11&hid=90548&text=tannoy%20402&deliveryincluded=1&onstock=1&how=aprice"
+					},
+					{
+						"title": "На Авито не нашлось, но тем не менее",
+						"url": "https://www.avito.ru/sankt-peterburg?bt=1&q=tannoy+reveal+402"
+					}
+				]
+			},
 			"launchpad": {
 				"title": "Novation Launchpad Mini",
 				"description": [

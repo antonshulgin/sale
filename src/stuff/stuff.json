@@ -91,6 +91,201 @@
 	"books": {
 		"title": "Книги",
 		"items": {
+			"beautifulYou": {
+				"title": "Beautiful You, Chuck Palahniuk",
+				"description": [
+					"From the author of Fight Club, the classic portrait of the damaged contemporary male psyche, now comes this novel about the apocalyptic marketing possibilities of a new product that gives new meaning to the term \"self-help.\"",
+					"— goodreads"
+				],
+				"extras": [],
+				"price": 500,
+				"isSold": false,
+				"url": "./stuff/beautiful-you/",
+				"images": [
+					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58b044588722a27295dd7538/09a01fff43f432bced53ffa4f80d6029/_DSC9402.jpg",
+					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58b044588722a27295dd7538/17ddbca1a474a8d60e4cad12c8ac4dec/_DSC9404.jpg",
+					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58b044588722a27295dd7538/ad459633125c3124b5f4094a1791dc3a/_DSC9403.jpg"
+				],
+				"links": [
+					{
+						"title": "Отзывы на goodreads.com",
+						"url": "https://www.goodreads.com/book/show/19523454-beautiful-you"
+					}
+				]
+			},
+			"crime": {
+				"title": "Crime, Irvine Welsh",
+				"description": [
+					"Crime is a 2008 novel by Scottish writer Irvine Welsh. It is the sequel to his earlier novel, Filth.",
+					"The main protagonist is Ray Lennox; a Detective Inspector with the Lothian and Borders Police who attempts to recover from a mental breakdown induced by stress, cocaine and alcohol abuse and a child murder case in Edinburgh in which he was the lead investigating officer by taking a holiday in Florida with his fiancée, Trudi.",
+					"— Wikipedia"
+				],
+				"extras": [],
+				"price": 300,
+				"isSold": false,
+				"url": "./stuff/crime/",
+				"images": [
+					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58b044671639d332686411f4/ad87f63a45ac2b7324af7a5d46b06caf/_DSC9409.jpg",
+					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58b044671639d332686411f4/97c8ae3cf736fc6fd4a71ece5a2e6a22/_DSC9411.jpg",
+					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58b044671639d332686411f4/5e2fe2475b25100ed835e6251d18fdba/_DSC9410.jpg"
+				],
+				"links": [
+					{
+						"title": "Crime (novel) — Wikipedia",
+						"url": "https://en.wikipedia.org/wiki/Crime_(novel)"
+					},
+					{
+						"title": "Отзывы на goodreads.com",
+						"url": "https://www.goodreads.com/book/show/2285386.Crime"
+					}
+				]
+			},
+			"filth": {
+				"title": "Filth, Irvine Welsh",
+				"description": [
+					"Bruce Robertson is a detective sergeant serving in Edinburgh's \"Lothian Constabulary\". Robertson is a Machiavellian, intensely misanthropic man who spends his time indulging in cocaine and alcohol abuse, sexually abusive relationships, compulsive gorging on junk food, and, most of all, his penchant for \"the games\" – Bruce's euphemism for the myriad foul plots he hatches directed at workmates.",
+					"— Wikipedia"
+				],
+				"extras": [],
+				"price": 300,
+				"isSold": false,
+				"url": "./stuff/filth/",
+				"images": [
+					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58aeba9d755e445595d33a0a/fe7be1519cc4842a56fb26ced1d3f20a/_DSC9361.jpg",
+					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58aeba9d755e445595d33a0a/fe0d121f23d0b9b29b1de850d2df1849/_DSC9348.jpg",
+					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58aeba9d755e445595d33a0a/f7572538873b524decca2cbee61671c0/_DSC9346.jpg",
+					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58aeba9d755e445595d33a0a/3838cc9899c32d34b9d107722a6dc148/_DSC9362.jpg"
+				],
+				"links": [
+					{
+						"title": "Filth (novel) — Wikipedia",
+						"url": "https://en.wikipedia.org/wiki/Filth_(novel)"
+					},
+					{
+						"title": "Отзывы на гудридз.ком",
+						"url": "https://www.goodreads.com/book/show/23966.Filth"
+					}
+				]
+			},
+			"germanPhrasebook": {
+				"title": "Chambers German Phrasebook, Stuart Fortey",
+				"description": [
+					"Немецко-английский разговорник с развертывающейся картой Берлина."
+				],
+				"extras": [],
+				"price": 100,
+				"isSold": false,
+				"url": "./stuff/german-phrasebook/",
+				"images": [
+					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58b04432964f25fb0191e69a/d21f8e45cff3d0196465fb6b8b882354/_DSC9385.jpg",
+					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58b04432964f25fb0191e69a/a401479527814e47ab28a6417aa7f964/_DSC9389.jpg",
+					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58b04432964f25fb0191e69a/a5153b297a0babed5e2f9eac6b7dbc7c/_DSC9388.jpg"
+				],
+				"links": [
+					{
+						"title": "Отзывы на goodreads.com (неточный заголовок, но книжка точно эта)",
+						"url": "https://www.goodreads.com/book/show/7415902-harrap-s-german-phrasebook-with-fold-out-map"
+					}
+				]
+			},
+			"germanIdioms": {
+				"title": "Barron's German Idioms, Henry Strutz",
+				"description": [
+					"Небольшой фрейзбук с немецкими идиомами. На английском."
+				],
+				"extras": [],
+				"price": 200,
+				"isSold": false,
+				"url": "./stuff/german-idioms/",
+				"images": [
+					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58b0443aed0d5c0edc860258/e24af0820872dd0b060478609d09183a/_DSC9390.jpg",
+					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58b0443aed0d5c0edc860258/9e4163b8859addd3db97edcd55986b6d/_DSC9399.jpg",
+					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58b0443aed0d5c0edc860258/576a700c2af55a6ae09a90b3181d4ffb/_DSC9396.jpg"
+				],
+				"links": [
+					{
+						"title": "Отзывы на goodreads.com",
+						"url": "https://www.goodreads.com/book/show/19277464-german-idioms"
+					}
+				]
+			},
+			"dubliners": {
+				"title": "Dubliners, James Joyce",
+				"description": [
+					"Dubliners is a collection of fifteen short stories by James Joyce, first published in 1914. They form a naturalistic depiction of Irish middle class life in and around Dublin in the early years of the 20th century.",
+					"— Wikipedia"
+				],
+				"extras": [],
+				"price": 100,
+				"isSold": false,
+				"url": "./stuff/dubliners/",
+				"images": [
+					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58b043c2c3f4414f7630acfb/0fb35bce805fd7e32cc04d00c38e3ab9/_DSC9420.jpg",
+					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58b043c2c3f4414f7630acfb/b0724919b6e0226f92b1b864e95c5713/_DSC9422.jpg",
+					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58b043c2c3f4414f7630acfb/ea5dc391f366532b702dd96fc5970d40/_DSC9421.jpg"
+				],
+				"links": [
+					{
+						"title": "Dubliners — Wikipedia",
+						"url": "https://en.wikipedia.org/wiki/Dubliners"
+					},
+					{
+						"title": "Отзывы на goodreads.com",
+						"url": "https://www.goodreads.com/book/show/11012.Dubliners"
+					}
+				]
+			},
+			"portraitOfTheArtist": {
+				"title": "A Portrait of the Artist as a Young Man, James Joyce",
+				"description": [
+					"A Portrait of the Artist as a Young Man is the first novel of Irish writer James Joyce. A Künstlerroman in a modernist style, it traces the religious and intellectual awakening of young Stephen Dedalus, a fictional alter ego of Joyce and an allusion to Daedalus, the consummate craftsman of Greek mythology.",
+					"— Wikipedia"
+				],
+				"extras": [],
+				"price": 100,
+				"isSold": false,
+				"url": "./stuff/portrait-of-the-artist/",
+				"images": [
+					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58b043da1399f60d4db37a34/abbc9de17675ee64efb6d9ff4417f57f/_DSC9414.jpg",
+					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58b043da1399f60d4db37a34/5d757f3920b3dc521c1e30fdf38832ab/_DSC9416.jpg",
+					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58b043da1399f60d4db37a34/0276c78b754881d3eb0ffda985dea703/_DSC9415.jpg"
+				],
+				"links": [
+					{
+						"title": "A Portrait of the Artist as a Young Man — Wikipedia",
+						"url": "https://en.wikipedia.org/wiki/A_Portrait_of_the_Artist_as_a_Young_Man"
+					},
+					{
+						"title": "Отзывы на goodreads.com",
+						"url": "https://www.goodreads.com/book/show/7588.A_Portrait_of_the_Artist_as_a_Young_Man"
+					}
+				]
+			},
+			"theGift": {
+				"title": "Дар, Владимир Набоков",
+				"description": [
+					"Поливание Чернышевского говном на протяжении 411 страниц. Увлекательно."
+				],
+				"extras": [],
+				"price": 100,
+				"isSold": false,
+				"url": "./stuff/the-gift/",
+				"images": [
+					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58aea7660bd173e347f7c678/73e456797f0fad151722b7d0179e315d/_DSC9364.jpg",
+					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58aea7660bd173e347f7c678/26ac4c3c5c7c53011dec35ef8588f965/_DSC9284.jpg",
+					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58aea7660bd173e347f7c678/5ddb927dbe9e55ae50914e90e47f41e1/_DSC9365.jpg"
+				],
+				"links": [
+					{
+						"title": "Дар (роман) — Википедия",
+						"url": "https://ru.wikipedia.org/wiki/%D0%94%D0%B0%D1%80_(%D1%80%D0%BE%D0%BC%D0%B0%D0%BD)"
+					},
+					{
+						"title": "Отзывы на гудридз.ком",
+						"url": "https://www.goodreads.com/book/show/24177006"
+					}
+				]
+			},
 			"alsoSprachZaratustra": {
 				"title": "Also sprach Zarathustra, Friedrich Nietzsche",
 				"description": [
@@ -115,6 +310,84 @@
 					{
 						"title": "Отзывы на goodreads.com",
 						"url": "https://www.goodreads.com/book/show/30722699-also-sprach-zarathustra"
+					}
+				]
+			},
+			"faust": {
+				"title": "Faust. Eine Tragödie. Erster Teil, Goethe",
+				"description": [
+					"Faust. Eine Tragödie. von Johann Wolfgang von Goethe gilt als das bedeutendste und meistzitierte Werk der deutschen Literatur.",
+					"— Wikipedia"
+				],
+				"extras": [],
+				"price": 100,
+				"isSold": false,
+				"url": "./stuff/faust/",
+				"images": [
+					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58aeb57adba0a4f56305e6af/d25c6f82809b31cea5e896a7f946cc5c/_DSC9319.jpg",
+					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58aeb57adba0a4f56305e6af/fb6b3571b741ae8375f8c3bd365274f3/_DSC9321.jpg",
+					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58aeb57adba0a4f56305e6af/1a96acceed285453054c14d73c0b02aa/_DSC9320.jpg"
+				],
+				"links": [
+					{
+						"title": "Faust. Eine Tragödie. — Wikipedia",
+						"url": "https://de.wikipedia.org/wiki/Faust._Eine_Trag%C3%B6die."
+					},
+					{
+						"title": "Отзывы на гудридз.ком",
+						"url": "https://www.goodreads.com/book/show/1095059.Faust"
+					}
+				]
+			},
+			"tropicOfCancer": {
+				"title": "Tropic of Cancer, Henry Miller",
+				"description": [
+					"Tropic of Cancer is a novel by Henry Miller that has been described as \"notorious for its candid sexuality\" and as responsible for the \"free speech that we now take for granted in literature\"",
+					"— Wikipedia"
+				],
+				"extras": [],
+				"price": 100,
+				"isSold": false,
+				"url": "./stuff/tropic-of-cancer/",
+				"images": [
+					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58aeab520fd9f823910860c7/87f0c87ff870e54ac52ba96ea4d441bb/_DSC9308.jpg",
+					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58aeab520fd9f823910860c7/a013a98fb9bbb9c7245ff0570a35644b/_DSC9310.jpg",
+					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58aeab520fd9f823910860c7/fca5066bed2c54a2e67a4915b629b879/_DSC9309.jpg"
+				],
+				"links": [
+					{
+						"title": "Tropic of Cancer (novel) — Wikipedia",
+						"url": "https://en.wikipedia.org/wiki/Tropic_of_Cancer_(novel)"
+					},
+					{
+						"title": "Отзывы на гудридз.ком",
+						"url": "https://www.goodreads.com/book/show/249.Tropic_of_Cancer"
+					}
+				]
+			},
+			"tropicOfCapricorn": {
+				"title": "Tropic of Capricorn, Henry Miller",
+				"description": [
+					"Tropic of Capricorn is a semi-autobiographical novel by Henry Miller, first published by Obelisk Press in Paris in 1939. A prequel of sorts to Miller's first published novel, 1934's Tropic of Cancer, it was banned in the United States until a 1961 Justice Department ruling declared that its contents were not obscene.",
+					"— Wikipedia"
+				],
+				"extras": [],
+				"price": 100,
+				"isSold": false,
+				"url": "./stuff/tropic-of-capricorn/",
+				"images": [
+					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58aeae6369fe4b4588071606/b31a91d40c6e3672e515b47a43b13fa6/_DSC9313.jpg",
+					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58aeae6369fe4b4588071606/f2b34b76c6769d64b0b899a21fd933dc/_DSC9315.jpg",
+					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58aeae6369fe4b4588071606/681e4605096120a8220368ea9a75fa30/_DSC9314.jpg"
+				],
+				"links": [
+					{
+						"title": "Tropic of Capricorn (novel) — Wikipedia",
+						"url": "https://en.wikipedia.org/wiki/Tropic_of_Capricorn_(novel)"
+					},
+					{
+						"title": "Отзывы на гудридз.ком",
+						"url": "https://www.goodreads.com/book/show/250.Tropic_of_Capricorn"
 					}
 				]
 			},
@@ -176,7 +449,9 @@
 			"tokyo": {
 				"title": "Tokyo, Nicholas Hogg",
 				"description": [
-					"Детектив, Япония, и прочее сектантство. Наверно это называется янг адалт фикшен."
+					"Social psychologist Ben Monroe has returned to Tokyo after a failed marriage, determined to seek out his former lover Kozue. His estranged teenage daughter Mazzy reluctantly flies from California to join him. On the flight she meets a young Japanese man, Koji, a cult survivor, who tells her the story of the luminous night princess Kaguya, a powerful tale of beauty and obsession.",
+					"— goodreads",
+					"Привез из Мельбурна по ошибке — перепутал с другим \"Токио\", написанным Mo Hayder."
 				],
 				"extras": [],
 				"price": 500,
@@ -191,136 +466,6 @@
 					{
 						"title": "Отзывы на goodreads.com",
 						"url": "https://www.goodreads.com/book/show/25068848-tokyo"
-					}
-				]
-			},
-			"theGift": {
-				"title": "Дар, Владимир Набоков",
-				"description": [
-					"Поливание Чернышевского говном на протяжении 411 страниц. Увлекательно."
-				],
-				"extras": [],
-				"price": 100,
-				"isSold": false,
-				"url": "./stuff/the-gift/",
-				"images": [
-					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58aea7660bd173e347f7c678/73e456797f0fad151722b7d0179e315d/_DSC9364.jpg",
-					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58aea7660bd173e347f7c678/26ac4c3c5c7c53011dec35ef8588f965/_DSC9284.jpg",
-					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58aea7660bd173e347f7c678/5ddb927dbe9e55ae50914e90e47f41e1/_DSC9365.jpg"
-				],
-				"links": [
-					{
-						"title": "Дар (роман) — Википедия",
-						"url": "https://ru.wikipedia.org/wiki/%D0%94%D0%B0%D1%80_(%D1%80%D0%BE%D0%BC%D0%B0%D0%BD)"
-					},
-					{
-						"title": "Отзывы на гудридз.ком",
-						"url": "https://www.goodreads.com/book/show/24177006"
-					}
-				]
-			},
-			"tropicOfCancer": {
-				"title": "Tropic of Cancer, Henry Miller",
-				"description": [
-					"Tropic of Cancer is a novel by Henry Miller that has been described as \"notorious for its candid sexuality\" and as responsible for the \"free speech that we now take for granted in literature\"",
-					"— Wikipedia"
-				],
-				"extras": [],
-				"price": 100,
-				"isSold": false,
-				"url": "./stuff/tropic-of-cancer/",
-				"images": [
-					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58aeab520fd9f823910860c7/87f0c87ff870e54ac52ba96ea4d441bb/_DSC9308.jpg",
-					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58aeab520fd9f823910860c7/a013a98fb9bbb9c7245ff0570a35644b/_DSC9310.jpg",
-					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58aeab520fd9f823910860c7/fca5066bed2c54a2e67a4915b629b879/_DSC9309.jpg"
-				],
-				"links": [
-					{
-						"title": "Tropic of Cancer (novel) — Wikipedia",
-						"url": "https://en.wikipedia.org/wiki/Tropic_of_Cancer_(novel)"
-					},
-					{
-						"title": "Отзывы на гудридз.ком",
-						"url": "https://www.goodreads.com/book/show/249.Tropic_of_Cancer"
-					}
-				]
-			},
-			"tropicOfCapricorn": {
-				"title": "Tropic of Capricorn, Henry Miller",
-				"description": [
-					"Tropic of Capricorn is a semi-autobiographical novel by Henry Miller, first published by Obelisk Press in Paris in 1939. A prequel of sorts to Miller's first published novel, 1934's Tropic of Cancer, it was banned in the United States until a 1961 Justice Department ruling declared that its contents were not obscene.",
-					"— Wikipedia"
-				],
-				"extras": [],
-				"price": 100,
-				"isSold": false,
-				"url": "./stuff/tropic-of-capricorn/",
-				"images": [
-					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58aeae6369fe4b4588071606/b31a91d40c6e3672e515b47a43b13fa6/_DSC9313.jpg",
-					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58aeae6369fe4b4588071606/f2b34b76c6769d64b0b899a21fd933dc/_DSC9315.jpg",
-					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58aeae6369fe4b4588071606/681e4605096120a8220368ea9a75fa30/_DSC9314.jpg"
-				],
-				"links": [
-					{
-						"title": "Tropic of Capricorn (novel) — Wikipedia",
-						"url": "https://en.wikipedia.org/wiki/Tropic_of_Capricorn_(novel)"
-					},
-					{
-						"title": "Отзывы на гудридз.ком",
-						"url": "https://www.goodreads.com/book/show/250.Tropic_of_Capricorn"
-					}
-				]
-			},
-			"faust": {
-				"title": "Faust. Eine Tragödie. Erster Teil, Goethe",
-				"description": [
-					"Faust. Eine Tragödie. von Johann Wolfgang von Goethe gilt als das bedeutendste und meistzitierte Werk der deutschen Literatur.",
-					"— Wikipedia"
-				],
-				"extras": [],
-				"price": 100,
-				"isSold": false,
-				"url": "./stuff/faust/",
-				"images": [
-					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58aeb57adba0a4f56305e6af/d25c6f82809b31cea5e896a7f946cc5c/_DSC9319.jpg",
-					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58aeb57adba0a4f56305e6af/fb6b3571b741ae8375f8c3bd365274f3/_DSC9321.jpg",
-					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58aeb57adba0a4f56305e6af/1a96acceed285453054c14d73c0b02aa/_DSC9320.jpg"
-				],
-				"links": [
-					{
-						"title": "Faust. Eine Tragödie. — Wikipedia",
-						"url": "https://de.wikipedia.org/wiki/Faust._Eine_Trag%C3%B6die."
-					},
-					{
-						"title": "Отзывы на гудридз.ком",
-						"url": "https://www.goodreads.com/book/show/1095059.Faust"
-					}
-				]
-			},
-			"filth": {
-				"title": "Filth, Irvine Welsh",
-				"description": [
-					"Bruce Robertson is a detective sergeant serving in Edinburgh's \"Lothian Constabulary\". Robertson is a Machiavellian, intensely misanthropic man who spends his time indulging in cocaine and alcohol abuse, sexually abusive relationships, compulsive gorging on junk food, and, most of all, his penchant for \"the games\" – Bruce's euphemism for the myriad foul plots he hatches directed at workmates.",
-					"— Wikipedia"
-				],
-				"extras": [],
-				"price": 300,
-				"isSold": false,
-				"url": "./stuff/filth/",
-				"images": [
-					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58aeba9d755e445595d33a0a/fe7be1519cc4842a56fb26ced1d3f20a/_DSC9361.jpg",
-					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58aeba9d755e445595d33a0a/fe0d121f23d0b9b29b1de850d2df1849/_DSC9348.jpg",
-					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58aeba9d755e445595d33a0a/f7572538873b524decca2cbee61671c0/_DSC9346.jpg",
-					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58aeba9d755e445595d33a0a/3838cc9899c32d34b9d107722a6dc148/_DSC9362.jpg"
-				],
-				"links": [
-					{
-						"title": "Filth (novel) — Wikipedia",
-						"url": "https://en.wikipedia.org/wiki/Filth_(novel)"
-					},
-					{
-						"title": "Отзывы на гудридз.ком",
-						"url": "https://www.goodreads.com/book/show/23966.Filth"
 					}
 				]
 			}

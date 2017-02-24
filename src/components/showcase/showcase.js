@@ -18,6 +18,13 @@
 
 	var SLIDESHOW_INTERVAL = 6666;
 
+	var KEYCODE_SPACEBAR = 32;
+	var KEYCODE_ARROW_LEFT = 37;
+	var KEYCODE_ARROW_RIGHT = 39;
+	var KEYCODE_ARROW_UP = 38;
+	var KEYCODE_ARROW_DOWN = 40;
+	var KEYCODE_ESCAPE = 27;
+
 	var internals = {};
 
 	window.addEventListener('load', initShowcase, false);
@@ -36,6 +43,7 @@
 			return;
 		}
 		insertEmailHrefs();
+		initKeyboardActions();
 		startSlideshow(true);
 		exports.showcase = {
 			startSlideshow: startSlideshow,
@@ -47,12 +55,76 @@
 		};
 	}
 
-	function toggleDetails() {
-		var showcase = getShowcase();
-		if (!showcase) {
+	function getKeyboardActions() {
+		return internals.keyboardActions;
+	}
+
+	function initKeyboardActions() {
+		internals.keyboardActions = {};
+		internals.keyboardActions[KEYCODE_SPACEBAR] = bumpGallery;
+		internals.keyboardActions[KEYCODE_ARROW_LEFT] = showPreviousImage;
+		internals.keyboardActions[KEYCODE_ARROW_RIGHT] = showNextImage;
+		internals.keyboardActions[KEYCODE_ARROW_UP] = hideDetails;
+		internals.keyboardActions[KEYCODE_ARROW_DOWN] = showDetails;
+		internals.keyboardActions[KEYCODE_ESCAPE] = toggleDetails;
+		window.addEventListener('keyup', dispatchKeyboardActions, false);
+	}
+
+	function dispatchKeyboardActions(event) {
+		if (!event) {
 			return;
 		}
-		showcase.classList.toggle(CLASS_NAME_SHOWCASE_DETAILS_FOLDED);
+		var keyboardActions = getKeyboardActions();
+		if (!keyboardActions) {
+			return;
+		}
+		event.preventDefault();
+		if (!event.keyCode) {
+			return;
+		}
+		var keyCode = event.keyCode;
+		if (hasKeyboardActionHandler(keyCode)) {
+			keyboardActions[keyCode](true, event.shiftKey);
+		}
+	}
+
+	function hasKeyboardActionHandler(keyCode) {
+		var keyboardActions = getKeyboardActions();
+		if (!keyboardActions) {
+			return;
+		}
+		if (!keyboardActions.hasOwnProperty(keyCode)) {
+			return;
+		}
+		return Object.prototype.toString.call(keyboardActions[keyCode]) === '[object Function]';
+	}
+
+	function toggleDetails() {
+		if (isDetailsFolded()) {
+			showDetails();
+			return;
+		}
+		hideDetails();
+	}
+
+	function isDetailsFolded() {
+		return internals.isDetailsFolded;
+	}
+
+	function hideDetails() {
+		if (!getShowcase()) {
+			return;
+		}
+		getShowcase().classList.add(CLASS_NAME_SHOWCASE_DETAILS_FOLDED);
+		internals.isDetailsFolded = true;
+	}
+
+	function showDetails() {
+		if (!getShowcase()) {
+			return;
+		}
+		getShowcase().classList.remove(CLASS_NAME_SHOWCASE_DETAILS_FOLDED);
+		internals.isDetailsFolded = false;
 	}
 
 	function isSlideshowActive() {
@@ -114,7 +186,6 @@
 		if (isSlideshowActive()) {
 			resetSlideshowInterval();
 		}
-		console.log({ showImage: getActiveImageIndex() });
 	}
 
 	function getActiveImageIndex() {

@@ -4,7 +4,7 @@ mixin showcase(item)
 
 			button.showcase-action-toggle-details(
 				onclick='showcase.toggleDetails()'
-				title='Toggle details'
+				title='Показать/скрыть детали (Esc)'
 			)
 				span.showcase-icon.showcase-icon-forward
 
@@ -51,7 +51,7 @@ mixin showcase(item)
 				li.showcase-gallery-action.showcase-gallery-action-back
 					button(
 						onclick='showcase.showPreviousImage(true)'
-						title='Назад'
+						title='Назад (←, Shift-Space)'
 					)
 						span.showcase-icon.showcase-icon-back
 
@@ -72,6 +72,6 @@ mixin showcase(item)
 				li.showcase-gallery-action.showcase-gallery-action-forward
 					button(
 						onclick='showcase.showNextImage(true)'
-						title='Вперед'
+						title='Вперед (→, Space)'
 					)
 						span.showcase-icon.showcase-icon-forward

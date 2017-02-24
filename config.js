@@ -27,7 +27,7 @@ module.exports = {
 	},
 
 	dist: {
-		root: 'dist/',
+		root: 'docs/',
 		filenames: {
 			html: PROJECT_NAME + '.html',
 			css: PROJECT_NAME + '.css',

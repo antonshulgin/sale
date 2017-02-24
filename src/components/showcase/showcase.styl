@@ -3,6 +3,12 @@
 $action-button-size = 42px
 $icon-size = 8px
 
+@keyframes plop
+	0%
+		opacity .0
+	100%
+		opacity .3
+
 .showcase
 	background-color $bg
 	color $text
@@ -39,6 +45,7 @@ $icon-size = 8px
 			margin 0
 
 		.showcase-action-toggle-details
+			animation plop 1s
 			margin 1em
 			transform rotate(270deg)
 
@@ -76,12 +83,12 @@ $icon-size = 8px
 		background-color transparent !important
 		box-shadow none !important
 		margin 2em
+		opacity .3
 		position absolute
 		right 0
 		top 0
 		transform rotate(90deg)
 		z-index 10
-		opacity .6
 
 		&:hover
 			opacity 1
@@ -208,3 +215,20 @@ $icon-size = 8px
 	&.showcase-icon-pause
 		border-left solid 3px
 		border-right solid 3px
+
+	&.showcase-icon-fold
+		border-top solid 2px
+		border-left solid 2px
+		transform translate(-30%, -50%) rotate(-45deg)
+
+		&:after
+			background-color transparent
+			border solid 2px $text
+			border-radius 100em
+			content ''
+			height 400%
+			left 50%
+			position absolute
+			top 50%
+			transform translate(-57.5%, -57.5%)
+			width 400%

@@ -147,7 +147,7 @@
 			return;
 		}
 		if (isForcedUpdate) {
-			showNextImage();
+			showImage(getActiveImageIndex());
 		}
 		internals.slideshowInterval = setInterval(showNextImage, SLIDESHOW_INTERVAL);
 		internals.isSlideshowActive = true;

@@ -97,6 +97,22 @@ $icon-size = 8px
 			.showcase-icon
 				border-color $text
 
+	.showcase-action-go-home
+		background-color $bg-accent
+		bottom 0
+		color $text-inverse
+		line-height $action-button-size
+		margin 1em
+		padding 0 1em
+		position fixed
+		right 0
+		transition all $transition-quick
+		z-index 100
+
+		&:hover
+			background-color $bg
+			color $text
+
 .showcase-details
 	left 0
 	margin 0
@@ -253,6 +269,12 @@ $icon-size = 8px
 
 			.showcase-icon
 				border-color $text-inverse
+
+		.showcase-action-go-home
+			bottom auto
+			left 0
+			right auto
+			top 0
 
 	.showcase-details
 		padding 0

@@ -148,7 +148,7 @@
 				],
 				"extras": [],
 				"price": 300,
-				"isSold": false,
+				"isSold": true,
 				"url": "./stuff/filth/",
 				"images": [
 					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58aeba9d755e445595d33a0a/fe7be1519cc4842a56fb26ced1d3f20a/_DSC9361.jpg",
@@ -466,6 +466,41 @@
 					{
 						"title": "Отзывы на goodreads.com",
 						"url": "https://www.goodreads.com/book/show/25068848-tokyo"
+					}
+				]
+			}
+		}
+	},
+
+	"health": {
+		"title": "Спорт!",
+		"items": {
+			"ersatzBike": {
+				"title": "Велотреник Body Sculpture BC-1700",
+				"description": [
+					"Магнитный привод, счетчики калорий, скорости, дистанции, пульса и прочих признаков жизни.",
+					"Пробег 48 км. Использовался как вешалка для баса."
+				],
+				"extras": [],
+				"price": 5000,
+				"isSold": false,
+				"url": "./stuff/ersatz-bike/",
+				"images": [
+					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58ace10e145790346ea9bca9/6c871c7b82902f094e6ccf5b267bf154/_DSC9579.jpg",
+					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58ace10e145790346ea9bca9/2ffddbc43186559efcc48e8d62037f1b/_DSC9554.jpg",
+					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58ace10e145790346ea9bca9/f963403bfcd0f406d060aa6e8e329ead/_DSC9540.jpg",
+					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58ace10e145790346ea9bca9/68cf688343e92ec8e441762e610473fe/_DSC9571.jpg",
+					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58ace10e145790346ea9bca9/027807bf7c75c42576d4aaeafe4d2a16/_DSC9521.jpg",
+					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58ace10e145790346ea9bca9/0c951660832bcc8afbf7e4601d70c18d/_DSC9573.jpg"
+				],
+				"links": [
+					{
+						"title": "Цены на Яндекс.Маркете",
+						"url": "https://market.yandex.ru/product/7773187/offers?hid=91524&track=tabs"
+					},
+					{
+						"title": "Цены в остальных Интернетах",
+						"url": "https://duckduckgo.com/?q=%2Bпетербург+\"body+sculpture+bc-1700\""
 					}
 				]
 			}

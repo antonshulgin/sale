@@ -50,7 +50,7 @@ mixin showcase(item)
 			ul.showcase-gallery-actions
 				li.showcase-gallery-action.showcase-gallery-action-back
 					button(
-						onclick='showcase.showPreviousImage()'
+						onclick='showcase.showPreviousImage(true)'
 						title='Назад'
 					)
 						span.showcase-icon.showcase-icon-back
@@ -71,7 +71,7 @@ mixin showcase(item)
 
 				li.showcase-gallery-action.showcase-gallery-action-forward
 					button(
-						onclick='showcase.showNextImage()'
+						onclick='showcase.showNextImage(true)'
 						title='Вперед'
 					)
 						span.showcase-icon.showcase-icon-forward

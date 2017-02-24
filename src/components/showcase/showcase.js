@@ -76,12 +76,18 @@
 		getShowcase().classList.add(CLASS_NAME_SHOWCASE_SLIDESHOW_ACTIVE);
 	}
 
-	function showPreviousImage() {
+	function showPreviousImage(isInitiatedByUser) {
 		showImage(getActiveImageIndex() - 1);
+		if (isInitiatedByUser) {
+			stopSlideshow();
+		}
 	}
 
-	function showNextImage() {
+	function showNextImage(isInitiatedByUser) {
 		showImage(getActiveImageIndex() + 1);
+		if (isInitiatedByUser) {
+			stopSlideshow();
+		}
 	}
 
 	function showImage(imageIndex) {

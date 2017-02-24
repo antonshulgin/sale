@@ -3,13 +3,13 @@ html(lang='en')
 
 	include ../../components/head/mixin-head.pug
 	+head({
-		title: stuff.books.items[4].title,
+		title: stuff.books.items.faust.title,
 		baseUrl: '../..'
 	})
 
 	body
 
 		include ../../components/showcase/mixin-showcase.pug
-		+showcase(stuff.books.items[4])
+		+showcase(stuff.books.items.faust)
 
 		script(src='../../sale.js')

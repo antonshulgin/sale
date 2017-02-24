@@ -1,8 +1,8 @@
 {
 	"audio": {
 		"title": "Аудиомузыкальное",
-		"items": [
-			{
+		"items": {
+			"launchpad": {
 				"title": "Novation Launchpad Mini",
 				"description": [
 					"Как новый, использовался полтора-два раза."
@@ -41,13 +41,13 @@
 					}
 				]
 			}
-		]
+		}
 	},
 
 	"books": {
 		"title": "Книги",
-		"items": [
-			{
+		"items": {
+			"tokyo": {
 				"title": "Tokyo, Nicholas Hogg",
 				"description": [
 					"Детектив, Япония, и прочее сектантство. Наверно это называется янг адалт фикшен."
@@ -68,7 +68,7 @@
 					}
 				]
 			},
-			{
+			"theGift": {
 				"title": "Дар, Владимир Набоков",
 				"description": [
 					"Поливание Чернышевского говном на протяжении 411 страниц. Увлекательно."
@@ -93,7 +93,7 @@
 					}
 				]
 			},
-			{
+			"tropicOfCancer": {
 				"title": "Tropic of Cancer, Henry Miller",
 				"description": [
 					"Tropic of Cancer is a novel by Henry Miller that has been described as \"notorious for its candid sexuality\" and as responsible for the \"free speech that we now take for granted in literature\"",
@@ -119,7 +119,7 @@
 					}
 				]
 			},
-			{
+			"tropicOfCapricorn": {
 				"title": "Tropic of Capricorn, Henry Miller",
 				"description": [
 					"Tropic of Capricorn is a semi-autobiographical novel by Henry Miller, first published by Obelisk Press in Paris in 1939. A prequel of sorts to Miller's first published novel, 1934's Tropic of Cancer, it was banned in the United States until a 1961 Justice Department ruling declared that its contents were not obscene.",
@@ -145,7 +145,7 @@
 					}
 				]
 			},
-			{
+			"faust": {
 				"title": "Faust. Eine Tragödie. Erster Teil, Goethe",
 				"description": [
 					"Faust. Eine Tragödie. von Johann Wolfgang von Goethe gilt als das bedeutendste und meistzitierte Werk der deutschen Literatur.",
@@ -171,7 +171,7 @@
 					}
 				]
 			},
-			{
+			"filth": {
 				"title": "Filth, Irvine Welsh",
 				"description": [
 					"Bruce Robertson is a detective sergeant serving in Edinburgh's \"Lothian Constabulary\". Robertson is a Machiavellian, intensely misanthropic man who spends his time indulging in cocaine and alcohol abuse, sexually abusive relationships, compulsive gorging on junk food, and, most of all, his penchant for \"the games\" – Bruce's euphemism for the myriad foul plots he hatches directed at workmates.",
@@ -198,7 +198,6 @@
 					}
 				]
 			}
-
-		]
+		}
 	}
 }

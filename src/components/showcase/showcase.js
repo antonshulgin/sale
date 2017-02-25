@@ -171,15 +171,16 @@
 	}
 
 	function setActiveImageIndex(imageIndex) {
+		var images = getImages();
 		if (!isNumber(imageIndex)) {
 			return;
 		}
-		if (imageIndex >= getImages().length) {
+		if (imageIndex >= images.length) {
 			internals.activeImageIndex = 0;
 			return;
 		}
 		if (imageIndex < 0) {
-			internals.activeImageIndex = getImages().length - 1;
+			internals.activeImageIndex = images.length - 1;
 			return;
 		}
 		internals.activeImageIndex = imageIndex;
@@ -197,10 +198,11 @@
 	}
 
 	function findActiveImages() {
-		if (!getGallery()) {
+		var gallery = getGallery();
+		if (!gallery) {
 			return;
 		}
-		return getGallery().querySelectorAll(SELECTOR_SHOWCASE_ACTIVE_IMAGE);
+		return gallery.querySelectorAll(SELECTOR_SHOWCASE_ACTIVE_IMAGE);
 	}
 
 	function getImages() {
@@ -215,10 +217,11 @@
 	}
 
 	function findImages() {
-		if (!getGallery()) {
+		var gallery = getGallery();
+		if (!gallery) {
 			return;
 		}
-		return getGallery().querySelectorAll(SELECTOR_SHOWCASE_IMAGE);
+		return gallery.querySelectorAll(SELECTOR_SHOWCASE_IMAGE);
 	}
 
 	function getGallery() {
@@ -233,10 +236,11 @@
 	}
 
 	function findGallery() {
-		if (!getShowcase()) {
+		var showcase = getShowcase();
+		if (!showcase) {
 			return;
 		}
-		return getShowcase().querySelector(SELECTOR_SHOWCASE_GALLERY);
+		return showcase.querySelector(SELECTOR_SHOWCASE_GALLERY);
 	}
 
 	function getShowcase() {

@@ -96,7 +96,7 @@
 		if (!keyboardActions.hasOwnProperty(keyCode)) {
 			return;
 		}
-		return Object.prototype.toString.call(keyboardActions[keyCode]) === '[object Function]';
+		return isFunction(keyboardActions[keyCode]);
 	}
 
 	function toggleDetails() {
@@ -177,15 +177,19 @@
 	}
 
 	function showImage(imageIndex) {
-		if (!getImages()) {
+		var images = getImages();
+		if (!images) {
 			return;
 		}
-		setActiveImageIndex(imageIndex);
 		clearActiveImages();
-		getImages()[getActiveImageIndex()].classList.add(CLASS_NAME_SHOWCASE_ACTIVE_IMAGE);
+		setActiveImageIndex(imageIndex);
+		images[getActiveImageIndex()].classList.add(CLASS_NAME_SHOWCASE_ACTIVE_IMAGE);
 		if (isSlideshowActive()) {
 			resetSlideshowInterval();
 		}
+		console.log({
+			showImage: getActiveImageIndex()
+		});
 	}
 
 	function getActiveImageIndex() {
@@ -193,10 +197,7 @@
 	}
 
 	function setActiveImageIndex(imageIndex) {
-		if (Object.prototype.toString.call(imageIndex) !== '[object Number]') {
-			return;
-		}
-		if (!isFinite(imageIndex)) {
+		if (!isNumber(imageIndex)) {
 			return;
 		}
 		if (imageIndex >= getImages().length) {
@@ -311,6 +312,19 @@
 		for (idx = 0; idx < emailLinks.length; idx += 1) {
 			emailLinks[idx].href = emailHref;
 		}
+	}
+
+	function isNumber(item) {
+		return (toStringCall(item) === '[object Number]') &&
+			isFinite(item);
+	}
+
+	function isFunction(item) {
+		return toStringCall(item) === '[object Function]';
+	}
+
+	function toStringCall(item) {
+		return Object.prototype.toString.call(item);
 	}
 
 })(this);

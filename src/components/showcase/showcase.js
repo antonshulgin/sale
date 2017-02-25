@@ -110,12 +110,18 @@
 	}
 
 	function stopSlideshow() {
+		if (!isSlideshowActive()) {
+			return;
+		}
 		clearInterval(internals.slideshowInterval);
 		internals.isSlideshowActive = false;
 		getShowcase().classList.remove(CLASS_NAME_SHOWCASE_SLIDESHOW_ACTIVE);
 	}
 
 	function startSlideshow(isForcedUpdate) {
+		if (isSlideshowActive()) {
+			return;
+		}
 		if (!getImages()) {
 			return;
 		}
@@ -136,20 +142,14 @@
 	}
 
 	function showPreviousImage(isInitiatedByUser) {
-		showImage(getActiveImageIndex() - 1);
-		if (isInitiatedByUser) {
-			stopSlideshow();
-		}
+		showImage((getActiveImageIndex() - 1), isInitiatedByUser);
 	}
 
 	function showNextImage(isInitiatedByUser) {
-		showImage(getActiveImageIndex() + 1);
-		if (isInitiatedByUser) {
-			stopSlideshow();
-		}
+		showImage((getActiveImageIndex() + 1), isInitiatedByUser);
 	}
 
-	function showImage(imageIndex) {
+	function showImage(imageIndex, isInitiatedByUser) {
 		var images = getImages();
 		if (!images) {
 			return;
@@ -157,12 +157,13 @@
 		clearActiveImages();
 		setActiveImageIndex(imageIndex);
 		images[getActiveImageIndex()].classList.add(CLASS_NAME_SHOWCASE_ACTIVE_IMAGE);
+		if (isInitiatedByUser) {
+			stopSlideshow();
+			return;
+		}
 		if (isSlideshowActive()) {
 			resetSlideshowInterval();
 		}
-		console.log({
-			showImage: getActiveImageIndex()
-		});
 	}
 
 	function getActiveImageIndex() {

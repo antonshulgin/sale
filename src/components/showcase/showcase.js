@@ -21,8 +21,6 @@
 	var KEYCODE_SPACEBAR = 32;
 	var KEYCODE_ARROW_LEFT = 37;
 	var KEYCODE_ARROW_RIGHT = 39;
-	var KEYCODE_ARROW_UP = 38;
-	var KEYCODE_ARROW_DOWN = 40;
 	var KEYCODE_ESCAPE = 27;
 
 	var internals = {};
@@ -64,8 +62,6 @@
 		keyboardActions[KEYCODE_SPACEBAR] = bumpGallery;
 		keyboardActions[KEYCODE_ARROW_LEFT] = showPreviousImage;
 		keyboardActions[KEYCODE_ARROW_RIGHT] = showNextImage;
-		keyboardActions[KEYCODE_ARROW_UP] = hideDetails;
-		keyboardActions[KEYCODE_ARROW_DOWN] = showDetails;
 		keyboardActions[KEYCODE_ESCAPE] = toggleDetails;
 		internals.keyboardActions = keyboardActions;
 		window.addEventListener('keyup', dispatchKeyboardActions, false);
@@ -101,31 +97,7 @@
 	}
 
 	function toggleDetails() {
-		if (isDetailsFolded()) {
-			showDetails();
-			return;
-		}
-		hideDetails();
-	}
-
-	function isDetailsFolded() {
-		return internals.isDetailsFolded;
-	}
-
-	function hideDetails() {
-		if (!getShowcase()) {
-			return;
-		}
-		getShowcase().classList.add(CLASS_NAME_SHOWCASE_DETAILS_FOLDED);
-		internals.isDetailsFolded = true;
-	}
-
-	function showDetails() {
-		if (!getShowcase()) {
-			return;
-		}
-		getShowcase().classList.remove(CLASS_NAME_SHOWCASE_DETAILS_FOLDED);
-		internals.isDetailsFolded = false;
+		getShowcase().classList.toggle(CLASS_NAME_SHOWCASE_DETAILS_FOLDED);
 	}
 
 	function isSlideshowActive() {

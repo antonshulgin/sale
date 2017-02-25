@@ -104,7 +104,7 @@
 		return internals.isSlideshowActive;
 	}
 
-	function resetSlideshowInterval() {
+	function resetSlideshowTimeout() {
 		stopSlideshow();
 		startSlideshow();
 	}
@@ -113,7 +113,7 @@
 		if (!isSlideshowActive()) {
 			return;
 		}
-		clearInterval(internals.slideshowInterval);
+		clearTimeout(internals.slideshowTimeout);
 		internals.isSlideshowActive = false;
 		getShowcase().classList.remove(CLASS_NAME_SHOWCASE_SLIDESHOW_ACTIVE);
 	}
@@ -128,7 +128,7 @@
 		if (isForcedUpdate) {
 			showImage(getActiveImageIndex());
 		}
-		internals.slideshowInterval = setInterval(showNextImage, SLIDESHOW_INTERVAL);
+		internals.slideshowTimeout = setTimeout(showNextImage, SLIDESHOW_INTERVAL);
 		internals.isSlideshowActive = true;
 		getShowcase().classList.add(CLASS_NAME_SHOWCASE_SLIDESHOW_ACTIVE);
 	}
@@ -162,7 +162,7 @@
 			return;
 		}
 		if (isSlideshowActive()) {
-			resetSlideshowInterval();
+			resetSlideshowTimeout();
 		}
 	}
 

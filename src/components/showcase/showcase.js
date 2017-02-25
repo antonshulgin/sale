@@ -133,8 +133,8 @@
 		getShowcase().classList.add(CLASS_NAME_SHOWCASE_SLIDESHOW_ACTIVE);
 	}
 
-	function bumpGallery(isInitiatedByUser, isInvertedOrder) {
-		if (isInvertedOrder) {
+	function bumpGallery(isInitiatedByUser, isReverseOrder) {
+		if (isReverseOrder) {
 			showPreviousImage(isInitiatedByUser);
 			return;
 		}

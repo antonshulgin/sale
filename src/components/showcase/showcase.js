@@ -167,12 +167,16 @@
 	}
 
 	function getActiveImageIndex() {
-		return internals.activeImageIndex || 0;
+		return isNonNegativeNumber(internals.activeImageIndex) ?
+			internals.activeImageIndex : 0;
 	}
 
 	function setActiveImageIndex(imageIndex) {
+		if (!isNonNegativeNumber(imageIndex)) {
+			return;
+		}
 		var images = getImages();
-		if (!isNumber(imageIndex)) {
+		if (!images) {
 			return;
 		}
 		if (imageIndex >= images.length) {
@@ -210,7 +214,7 @@
 	}
 
 	function setImages(images) {
-		if (!images) {
+		if (!isNonEmptyNodeList(images)) {
 			return;
 		}
 		internals.images = images;
@@ -229,7 +233,7 @@
 	}
 
 	function setGallery(gallery) {
-		if (!gallery) {
+		if (!hasQuerySelectors(gallery)) {
 			return;
 		}
 		internals.gallery = gallery;
@@ -248,7 +252,7 @@
 	}
 
 	function setShowcase(showcase) {
-		if (!showcase) {
+		if (!hasQuerySelectors(showcase)) {
 			return;
 		}
 		internals.showcase = showcase;
@@ -292,9 +296,21 @@
 		}
 	}
 
-	function isNumber(item) {
+	function isNonEmptyNodeList(item) {
+		return (toStringCall(item) === '[object NodeList]') &&
+			item.length;
+	}
+
+	function hasQuerySelectors(item) {
+		return item &&
+			isFunction(item.querySelector) &&
+			isFunction(item.querySelectorAll);
+	}
+
+	function isNonNegativeNumber(item) {
 		return (toStringCall(item) === '[object Number]') &&
-			isFinite(item);
+			isFinite(item) &&
+			item >= 0;
 	}
 
 	function isFunction(item) {

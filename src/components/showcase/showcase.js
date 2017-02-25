@@ -60,13 +60,14 @@
 	}
 
 	function initKeyboardActions() {
-		internals.keyboardActions = {};
-		internals.keyboardActions[KEYCODE_SPACEBAR] = bumpGallery;
-		internals.keyboardActions[KEYCODE_ARROW_LEFT] = showPreviousImage;
-		internals.keyboardActions[KEYCODE_ARROW_RIGHT] = showNextImage;
-		internals.keyboardActions[KEYCODE_ARROW_UP] = hideDetails;
-		internals.keyboardActions[KEYCODE_ARROW_DOWN] = showDetails;
-		internals.keyboardActions[KEYCODE_ESCAPE] = toggleDetails;
+		var keyboardActions = {};
+		keyboardActions[KEYCODE_SPACEBAR] = bumpGallery;
+		keyboardActions[KEYCODE_ARROW_LEFT] = showPreviousImage;
+		keyboardActions[KEYCODE_ARROW_RIGHT] = showNextImage;
+		keyboardActions[KEYCODE_ARROW_UP] = hideDetails;
+		keyboardActions[KEYCODE_ARROW_DOWN] = showDetails;
+		keyboardActions[KEYCODE_ESCAPE] = toggleDetails;
+		internals.keyboardActions = keyboardActions;
 		window.addEventListener('keyup', dispatchKeyboardActions, false);
 	}
 

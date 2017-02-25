@@ -40,12 +40,12 @@ mixin showcase(item)
 					p Эта штука уже продана.
 			
 				if !item.isSold
-					h2 Как?
+					h2 Как купить?
 					p
-						a.showcase-contact-email Напечатать письмо
+						a.showcase-contact-email Напечатать мне письмо
 						|  или 
 						a.showcase-contact-twitter(href=`https://twitter.com/antonshulgin`) дм в твитере
-						| . Постараюсь ответить в течение суток.
+						| .
 
 		div.showcase-gallery
 			ul.showcase-images(onclick='showcase.bumpGallery(true, event.shiftKey)')

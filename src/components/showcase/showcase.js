@@ -167,12 +167,12 @@
 	}
 
 	function getActiveImageIndex() {
-		return isNonNegativeNumber(internals.activeImageIndex) ?
+		return isNumber(internals.activeImageIndex) ?
 			internals.activeImageIndex : 0;
 	}
 
 	function setActiveImageIndex(imageIndex) {
-		if (!isNonNegativeNumber(imageIndex)) {
+		if (!isNumber(imageIndex)) {
 			return;
 		}
 		var images = getImages();
@@ -307,10 +307,9 @@
 			isFunction(item.querySelectorAll);
 	}
 
-	function isNonNegativeNumber(item) {
+	function isNumber(item) {
 		return (toStringCall(item) === '[object Number]') &&
-			isFinite(item) &&
-			item >= 0;
+			isFinite(item);
 	}
 
 	function isFunction(item) {

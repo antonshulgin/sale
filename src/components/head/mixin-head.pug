@@ -2,6 +2,8 @@ mixin head(params)
 	head
 		meta(charset='utf-8')
 		meta(name='viewport' content='width=device-width initial-scale=1')
+		if params.description
+			meta(name='description' content=`${params.description[0]}`)
 		title= params.title
 		link(rel='stylesheet' type='text/css' href=`${params.baseUrl}/vendor.css`)
 		link(rel='stylesheet' type='text/css' href=`${params.baseUrl}/sale.css`)

@@ -91,6 +91,29 @@
 	"books": {
 		"title": "Книги",
 		"items": {
+			"philosophyOfDesign": {
+				"title": "Философия дизайна Германа Цапфа, Издательство Студии Артемия Лебедева",
+				"description": [
+					"Килограм текста и картинок про шрифты и типографику."
+				],
+				"extras": [],
+				"price": 700,
+				"isSold": false,
+				"url": "./stuff/philosophy-of-design/",
+				"images": [
+					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58b3e84307e22a2692e23afe/fe9351647372457478792532bd8c7003/_DSC9582.jpg",
+					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58b3e84307e22a2692e23afe/d2887ff7f68bd7c547fe3b822210e82b/_DSC9586.jpg",
+					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58b3e84307e22a2692e23afe/7071604e28b34b71fcb736fd5d2769a7/_DSC9584.jpg",
+					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58b3e84307e22a2692e23afe/bdb22a2360a7611f6b8a4087b56e6d2d/_DSC9588.jpg",
+					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58b3e84307e22a2692e23afe/a4b8e744f600ca8446290c05c8dc4a84/_DSC9592.jpg"
+				],
+				"links": [
+					{
+						"title": "Описание на сайте Студии",
+						"url": "https://store.artlebedev.ru/books/design-theory/design-philosophy/"
+					}
+				]
+			},
 			"beautifulYou": {
 				"title": "Beautiful You, Chuck Palahniuk",
 				"description": [

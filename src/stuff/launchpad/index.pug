@@ -1,15 +1,2 @@
-doctype html
-html(lang='en')
-
-	include ../../components/head/mixin-head.pug
-	+head({
-		title: stuff.audio.items.launchpad.title,
-		baseUrl: '../..'
-	})
-
-	body
-
-		include ../../components/showcase/mixin-showcase.pug
-		+showcase(stuff.audio.items.launchpad)
-
-		script(src='../../sale.js')
+include ../../components/showcase/mixin-showcase.pug
++showcase(stuff.audio.items.launchpad)

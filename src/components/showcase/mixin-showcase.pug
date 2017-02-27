@@ -1,82 +1,95 @@
 mixin showcase(item)
-	article.showcase(class=item.isSold ? 'showcase-sold' : undefined)
-		div.showcase-details
+	doctype html
+	html(lang='en')
 
-			button.showcase-action-toggle-details(
-				onclick='showcase.toggleDetails()'
-				title='Показать/скрыть детали (Esc)'
-			)
-				span.showcase-icon.showcase-icon-fold
+		include ../head/mixin-head.pug
+		+head({
+			title: item.title,
+			baseUrl: '../..'
+		})
 
-			a.showcase-action-go-home(href='../../') На главную
+		body
 
-			div.showcase-description
-				h1= item.title
+			article.showcase(class=item.isSold ? 'showcase-sold' : undefined)
+				div.showcase-details
 
-				div.showcase-description-content
-					include ../pricetag/mixin-pricetag.pug
-					+pricetag(item)
-
-					for paragraph in item.description
-						p= paragraph
-
-					if item.extras.length
-						h2 В комплекте:
-						ul.showcase-extras
-							for extra in item.extras
-								li.showcase-extra
-									p= extra
-
-					if item.links.length
-						h2 Ссылки:
-						ul.showcase-links
-							for link in item.links
-								li.showcase-link
-									p
-										a(href=link.url)= link.title
-			
-			div.showcase-contact
-				if item.isSold
-					p Эта штука уже продана.
-			
-				if !item.isSold
-					h2 Как купить?
-					p
-						a.showcase-contact-email Напечатать письмо
-						|  или в твитер — 
-						a.showcase-contact-twitter(href=`https://twitter.com/antonshulgin`) @antonshulgin
-						| .
-
-		div.showcase-gallery
-			ul.showcase-images(onclick='showcase.bumpGallery(true, event.shiftKey)')
-				for image in item.images
-					li.showcase-image(style=`background-image: url(${image})`)
-
-			ul.showcase-gallery-actions
-				li.showcase-gallery-action.showcase-gallery-action-back
-					button(
-						onclick='showcase.showPreviousImage(true)'
-						title='Назад (←, Shift-Space)'
+					button.showcase-action-toggle-details(
+						onclick='showcase.toggleDetails()'
+						title='Показать/скрыть детали (Esc)'
 					)
-						span.showcase-icon.showcase-icon-back
+						span.showcase-icon.showcase-icon-fold
 
-				li.showcase-gallery-action.showcase-gallery-action-pause
-					button(
-						onclick='showcase.stopSlideshow()'
-						title='Остановите карусель, меня тошнит'
-					)
-						span.showcase-icon.showcase-icon-pause
+					a.showcase-action-go-home(href='../../') На главную
 
-				li.showcase-gallery-action.showcase-gallery-action-start
-					button(
-						onclick='showcase.startSlideshow(true)'
-						title='Запустить слайдшоу'
-					)
-						span.showcase-icon.showcase-icon-play
+					div.showcase-description
+						h1= item.title
 
-				li.showcase-gallery-action.showcase-gallery-action-forward
-					button(
-						onclick='showcase.showNextImage(true)'
-						title='Вперед (→, Space)'
-					)
-						span.showcase-icon.showcase-icon-forward
+						div.showcase-description-content
+							include ../pricetag/mixin-pricetag.pug
+							+pricetag(item)
+
+							for paragraph in item.description
+								p= paragraph
+
+							if item.extras.length
+								h2 В комплекте:
+								ul.showcase-extras
+									for extra in item.extras
+										li.showcase-extra
+											p= extra
+
+							if item.links.length
+								h2 Ссылки:
+								ul.showcase-links
+									for link in item.links
+										li.showcase-link
+											p
+												a(href=link.url)= link.title
+					
+					div.showcase-contact
+						if item.isSold
+							p Эта штука уже продана.
+					
+						if !item.isSold
+							h2 Как купить?
+							p
+								a.showcase-contact-email Напечатать письмо
+								|  или в твитер — 
+								a.showcase-contact-twitter(href=`https://twitter.com/antonshulgin`) @antonshulgin
+								| .
+
+				div.showcase-gallery
+					ul.showcase-images(onclick='showcase.bumpGallery(true, event.shiftKey)')
+						for image in item.images
+							li.showcase-image(style=`background-image: url(${image})`)
+
+					ul.showcase-gallery-actions
+						li.showcase-gallery-action.showcase-gallery-action-back
+							button(
+								onclick='showcase.showPreviousImage(true)'
+								title='Назад (←, Shift-Space)'
+							)
+								span.showcase-icon.showcase-icon-back
+
+						li.showcase-gallery-action.showcase-gallery-action-pause
+							button(
+								onclick='showcase.stopSlideshow()'
+								title='Остановите карусель, меня тошнит'
+							)
+								span.showcase-icon.showcase-icon-pause
+
+						li.showcase-gallery-action.showcase-gallery-action-start
+							button(
+								onclick='showcase.startSlideshow(true)'
+								title='Запустить слайдшоу'
+							)
+								span.showcase-icon.showcase-icon-play
+
+						li.showcase-gallery-action.showcase-gallery-action-forward
+							button(
+								onclick='showcase.showNextImage(true)'
+								title='Вперед (→, Space)'
+							)
+								span.showcase-icon.showcase-icon-forward
+
+			script(src='../../sale.js')

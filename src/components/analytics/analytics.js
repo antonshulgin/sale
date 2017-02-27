@@ -20,5 +20,4 @@
 		document.body.append(metrikaPixel);
 	})();
 
-
 })();

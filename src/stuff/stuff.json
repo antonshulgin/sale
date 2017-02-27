@@ -2,6 +2,7 @@
 	"audio": {
 		"title": "Аудиомузыкальное",
 		"items": {
+
 			"speakers": {
 				"title": "Tannoy Reveal 402",
 				"description": [
@@ -46,6 +47,7 @@
 					}
 				]
 			},
+
 			"launchpad": {
 				"title": "Novation Launchpad Mini",
 				"description": [
@@ -85,12 +87,14 @@
 					}
 				]
 			}
+
 		}
 	},
 
 	"books": {
 		"title": "Книги",
 		"items": {
+
 			"philosophyOfDesign": {
 				"title": "Философия дизайна Германа Цапфа, Издательство Студии Артемия Лебедева",
 				"description": [
@@ -114,6 +118,7 @@
 					}
 				]
 			},
+
 			"beautifulYou": {
 				"title": "Beautiful You, Chuck Palahniuk",
 				"description": [
@@ -136,6 +141,7 @@
 					}
 				]
 			},
+
 			"crime": {
 				"title": "Crime, Irvine Welsh",
 				"description": [
@@ -163,6 +169,7 @@
 					}
 				]
 			},
+
 			"filth": {
 				"title": "Filth, Irvine Welsh",
 				"description": [
@@ -190,6 +197,7 @@
 					}
 				]
 			},
+
 			"germanPhrasebook": {
 				"title": "Chambers German Phrasebook, Stuart Fortey",
 				"description": [
@@ -211,6 +219,7 @@
 					}
 				]
 			},
+
 			"germanIdioms": {
 				"title": "Barron's German Idioms, Henry Strutz",
 				"description": [
@@ -232,6 +241,7 @@
 					}
 				]
 			},
+
 			"dubliners": {
 				"title": "Dubliners, James Joyce",
 				"description": [
@@ -258,6 +268,7 @@
 					}
 				]
 			},
+
 			"portraitOfTheArtist": {
 				"title": "A Portrait of the Artist as a Young Man, James Joyce",
 				"description": [
@@ -284,6 +295,7 @@
 					}
 				]
 			},
+
 			"theGift": {
 				"title": "Дар, Владимир Набоков",
 				"description": [
@@ -309,6 +321,7 @@
 					}
 				]
 			},
+
 			"alsoSprachZaratustra": {
 				"title": "Also sprach Zarathustra, Friedrich Nietzsche",
 				"description": [
@@ -336,6 +349,7 @@
 					}
 				]
 			},
+
 			"faust": {
 				"title": "Faust. Eine Tragödie. Erster Teil, Goethe",
 				"description": [
@@ -362,6 +376,7 @@
 					}
 				]
 			},
+
 			"tropicOfCancer": {
 				"title": "Tropic of Cancer, Henry Miller",
 				"description": [
@@ -388,6 +403,7 @@
 					}
 				]
 			},
+
 			"tropicOfCapricorn": {
 				"title": "Tropic of Capricorn, Henry Miller",
 				"description": [
@@ -414,6 +430,7 @@
 					}
 				]
 			},
+
 			"theSoftMachine": {
 				"title": "The Soft Machine, William Burroughs",
 				"description": [
@@ -442,6 +459,7 @@
 					}
 				]
 			},
+
 			"junky": {
 				"title": "Junky, William Burroughs",
 				"description": [
@@ -469,6 +487,7 @@
 					}
 				]
 			},
+
 			"tokyo": {
 				"title": "Tokyo, Nicholas Hogg",
 				"description": [
@@ -492,12 +511,14 @@
 					}
 				]
 			}
+
 		}
 	},
 
 	"health": {
 		"title": "Спорт!",
 		"items": {
+
 			"ersatzBike": {
 				"title": "Велотреник Body Sculpture BC-1700",
 				"description": [
@@ -527,6 +548,7 @@
 					}
 				]
 			}
+
 		}
 	}
 }

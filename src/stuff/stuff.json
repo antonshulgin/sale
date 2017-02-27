@@ -142,6 +142,35 @@
 				]
 			},
 
+			"trainspotting": {
+				"title": "Trainspotting, Irvine Welsh",
+				"description": [
+					"Trainspotting is the first novel by Scottish writer Irvine Welsh, first published in 1993. It takes the form of a collection of short stories, written in either Scots, Scottish English or British English, revolving around various residents of Leith, Edinburgh who either use heroin, are friends of the core group of heroin users, or engage in destructive activities that are implicitly portrayed as addictions that serve the same function as heroin addiction. The novel is set in the late 1980s.",
+					"— Wikipedia"
+				],
+				"extras": [],
+				"price": 200,
+				"isSold": false,
+				"url": "./stuff/trainspotting/",
+				"images": [
+					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58b424a4a8854fb1ccefd31e/4f15f63cea90fd6c629a198ac4ea5401/_DSC9594.jpg",
+					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58b424a4a8854fb1ccefd31e/7cc17005a324766ff9e994f27eadb860/_DSC9595.jpg",
+					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58b424a4a8854fb1ccefd31e/54c21232757f4b738e5f737c456c2d43/_DSC9596.jpg",
+					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58b424a4a8854fb1ccefd31e/18de66014de765f903680dbc0664078c/_DSC9598.jpg",
+					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58b424a4a8854fb1ccefd31e/cac8c15628b9663ecbfbb9498a29f9d1/_DSC9599.jpg"
+				],
+				"links": [
+					{
+						"title": "Trainspotting (novel) — Wikipedia",
+						"url": "https://en.wikipedia.org/wiki/Trainspotting_(novel)"
+					},
+					{
+						"title": "Отзывы на goodreads.com",
+						"url": "https://www.goodreads.com/book/show/135836.Trainspotting"
+					}
+				]
+			},
+
 			"crime": {
 				"title": "Crime, Irvine Welsh",
 				"description": [

@@ -279,7 +279,7 @@
 				],
 				"extras": [],
 				"price": 100,
-				"isSold": false,
+				"isSold": true,
 				"url": "./stuff/dubliners/",
 				"images": [
 					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58b043c2c3f4414f7630acfb/0fb35bce805fd7e32cc04d00c38e3ab9/_DSC9420.jpg",
@@ -306,7 +306,7 @@
 				],
 				"extras": [],
 				"price": 100,
-				"isSold": false,
+				"isSold": true,
 				"url": "./stuff/portrait-of-the-artist/",
 				"images": [
 					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58b043da1399f60d4db37a34/abbc9de17675ee64efb6d9ff4417f57f/_DSC9414.jpg",
@@ -414,7 +414,7 @@
 				],
 				"extras": [],
 				"price": 100,
-				"isSold": false,
+				"isSold": true,
 				"url": "./stuff/tropic-of-cancer/",
 				"images": [
 					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58aeab520fd9f823910860c7/87f0c87ff870e54ac52ba96ea4d441bb/_DSC9308.jpg",
@@ -441,7 +441,7 @@
 				],
 				"extras": [],
 				"price": 100,
-				"isSold": false,
+				"isSold": true,
 				"url": "./stuff/tropic-of-capricorn/",
 				"images": [
 					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58aeae6369fe4b4588071606/b31a91d40c6e3672e515b47a43b13fa6/_DSC9313.jpg",

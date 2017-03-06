@@ -14,7 +14,7 @@
 					"документация"
 				],
 				"price": 15000,
-				"isSold": false,
+				"isSold": true,
 				"url": "./stuff/speakers/",
 				"images": [
 					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58a1a475652446331b79a1d1/d4cfe245b4554ca3faaea68e07c822fb/_DSC9461.jpg",
@@ -60,7 +60,7 @@
 					"Ableton Live 9 Lite"
 				],
 				"price": 5000,
-				"isSold": false,
+				"isSold": true,
 				"url": "./stuff/launchpad/",
 				"images": [
 					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58a1a46a677a6f61e9d63bbd/262a717431905b7701275b49df6507ff/_DSC9306.jpg",
@@ -102,7 +102,7 @@
 				],
 				"extras": [],
 				"price": 700,
-				"isSold": false,
+				"isSold": true,
 				"url": "./stuff/philosophy-of-design/",
 				"images": [
 					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58b3e84307e22a2692e23afe/fe9351647372457478792532bd8c7003/_DSC9582.jpg",
@@ -127,7 +127,7 @@
 				],
 				"extras": [],
 				"price": 500,
-				"isSold": false,
+				"isSold": true,
 				"url": "./stuff/beautiful-you/",
 				"images": [
 					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58b044588722a27295dd7538/09a01fff43f432bced53ffa4f80d6029/_DSC9402.jpg",
@@ -150,7 +150,7 @@
 				],
 				"extras": [],
 				"price": 200,
-				"isSold": false,
+				"isSold": true,
 				"url": "./stuff/trainspotting/",
 				"images": [
 					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58b424a4a8854fb1ccefd31e/4f15f63cea90fd6c629a198ac4ea5401/_DSC9594.jpg",
@@ -180,7 +180,7 @@
 				],
 				"extras": [],
 				"price": 300,
-				"isSold": false,
+				"isSold": true,
 				"url": "./stuff/crime/",
 				"images": [
 					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58b044671639d332686411f4/ad87f63a45ac2b7324af7a5d46b06caf/_DSC9409.jpg",
@@ -207,7 +207,7 @@
 				],
 				"extras": [],
 				"price": 300,
-				"isSold": false,
+				"isSold": true,
 				"url": "./stuff/filth/",
 				"images": [
 					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58aeba9d755e445595d33a0a/fe7be1519cc4842a56fb26ced1d3f20a/_DSC9361.jpg",
@@ -234,7 +234,7 @@
 				],
 				"extras": [],
 				"price": 100,
-				"isSold": false,
+				"isSold": true,
 				"url": "./stuff/german-phrasebook/",
 				"images": [
 					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58b04432964f25fb0191e69a/d21f8e45cff3d0196465fb6b8b882354/_DSC9385.jpg",
@@ -256,7 +256,7 @@
 				],
 				"extras": [],
 				"price": 200,
-				"isSold": false,
+				"isSold": true,
 				"url": "./stuff/german-idioms/",
 				"images": [
 					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58b0443aed0d5c0edc860258/e24af0820872dd0b060478609d09183a/_DSC9390.jpg",
@@ -332,7 +332,7 @@
 				],
 				"extras": [],
 				"price": 100,
-				"isSold": false,
+				"isSold": true,
 				"url": "./stuff/the-gift/",
 				"images": [
 					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58aea7660bd173e347f7c678/73e456797f0fad151722b7d0179e315d/_DSC9364.jpg",
@@ -360,7 +360,7 @@
 				],
 				"extras": [],
 				"price": 100,
-				"isSold": false,
+				"isSold": true,
 				"url": "./stuff/also-sprach-zarathustra/",
 				"images": [
 					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58b041d749119f2d4de009e7/ffe968f3a46f90b23cec5e545634425f/_DSC9381.jpg",
@@ -387,7 +387,7 @@
 				],
 				"extras": [],
 				"price": 100,
-				"isSold": false,
+				"isSold": true,
 				"url": "./stuff/faust/",
 				"images": [
 					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58aeb57adba0a4f56305e6af/d25c6f82809b31cea5e896a7f946cc5c/_DSC9319.jpg",
@@ -470,7 +470,7 @@
 				],
 				"extras": [],
 				"price": 300,
-				"isSold": false,
+				"isSold": true,
 				"url": "./stuff/the-soft-machine/",
 				"images": [
 					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58b041e5037b5403bcec3479/4c09a930366abf00852b3e0052fb592d/_DSC9405.jpg",
@@ -498,7 +498,7 @@
 				],
 				"extras": [],
 				"price": 300,
-				"isSold": false,
+				"isSold": true,
 				"url": "./stuff/junky/",
 				"images": [
 					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58b041ef554ea6c3c1423754/637987742bd4a32757a8c51c3ba4353f/_DSC9417.jpg",
@@ -526,7 +526,7 @@
 				],
 				"extras": [],
 				"price": 500,
-				"isSold": false,
+				"isSold": true,
 				"url": "./stuff/tokyo/",
 				"images": [
 					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58ae9f9ce17812fdef9426f2/1ebd2a50746abd3bc16f4e558ac378c9/_DSC9366.jpg",
@@ -556,7 +556,7 @@
 				],
 				"extras": [],
 				"price": 5000,
-				"isSold": false,
+				"isSold": true,
 				"url": "./stuff/ersatz-bike/",
 				"images": [
 					"https://trello-attachments.s3.amazonaws.com/58a1978a36a8bdcd6344103d/58ace10e145790346ea9bca9/6c871c7b82902f094e6ccf5b267bf154/_DSC9579.jpg",
